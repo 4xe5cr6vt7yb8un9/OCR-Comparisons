@@ -1,55 +1,51 @@
-import json
-import requests
-from PIL import Image
-
 from openai import OpenAI
+from dotenv import load_dotenv 
+from utils import extract_json, log_transcription
+from compare import word_distance
 
-def extract_json(file_path):
-    test_data = []
-    # Load the JSON file
-    with open(file_path, 'r') as file:
-        data = json.load(file)
+# Use ChatGPT to transcribe the given image
+def transcribe_image(url, prompt, client):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text", 
+                        "text": prompt
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": url,
+                        },
+                    },
+                ],
+            }
+        ],
+        max_tokens=1024,
+    )
+    return response
 
-    # Extract and display the relevant information from each document
-    documents = data.get("data", [])
-    for doc in documents:
-        image_url = doc.get("image_url", "No URL provided")
-        image_text = doc.get("image_text", "No text provided")
-        quality = doc.get("quality", "No quality description provided")
-        date = doc.get("date", "No date provided")
-
-        data = [image_url, image_text, quality, date]
-        test_data.append(data)
-
-    return test_data
-
-test_data = extract_json('testing_data.json')
-
-url = test_data[6][0]
-image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
-image.show()
+load_dotenv() 
 
 client = OpenAI()
+prompt = "Transcribe this image as accurately as possible. Only include the text extracted from the document"
+test_data = extract_json('testing_data.json')
 
-response = client.chat.completions.create(
-  model="gpt-4o",
-  messages=[
-    {
-      "role": "user",
-      "content": [
-        {
-         "type": "text", 
-         "text": "Transcribe this image as accurately as possible"},
-        {
-          "type": "image_url",
-          "image_url": {
-            "url": url,
-          },
-        },
-      ],
-    }
-  ],
-  max_tokens=500,
-)
+data = test_data.get('data', [])[0]
 
-print(response.choices[0].message.content)
+#for data in test_data.get('data', []):
+url = data.get('image_url')
+print(f"Transcribing image: {url}")
+response = transcribe_image(url, prompt, client)
+extracted_text = response.choices[0].message.content
+print("Finished transcription")
+
+# Calculates the distance between the automatted and manual transcriptions
+print("Calculating word distance")
+manual_text = data.get("image_text")
+distance = word_distance([extracted_text, manual_text])
+print('The transcription has a distance of %.4F\n' % distance)
+log_transcription(extracted_text, response.model, distance, prompt, url)
