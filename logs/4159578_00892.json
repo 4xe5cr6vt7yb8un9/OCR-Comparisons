@@ -1,0 +1,32 @@
+{
+    "transcripts": [
+        {
+            "model": "gpt-4o-2024-05-13",
+            "prompt": "Transcribe this image as accurately as possible. Only include the text extracted from the document",
+            "message": "In the matter of the application of Mrs. Mary Hoane widow of John Hoane for certain arrears of pension &c\n\nState of New York\nOneida County SS.\n\nMary Hoane being duly sworn says that the family record of John Hoane hereunto annexed is a true and correct record of the marriage of said Hoane to Mrs. Hoane, & the birth of their children, as kept by said Hoane, and taken from the old family Bible of said John & Mary Hoane in the possession of this de- ponent; that said record is genuine & is the hand wri- ting of said John Hoane deceased.\n\nWitness to signature\nD.M. Enton\t\t\tMary Hoane\n\t\t   \t\tHer X Mark\n\nSworn to and subscribed before me this 15th day of March A.D. 1853. And I hereby certify that I believe the annexed record is the true and genuine record of the Marriage of John & Mary Hoane & the birth of their children.\n\nGiven under my hand and seal\nof the Surrogates Court this 15th day of\nMarch 1853-\n(signed)\n\nRalph McIntosh\nSurrogate.",
+            "aspect_ratio": "1932:2807",
+            "word_distance": "0.2153"
+        },
+        {
+            "model": "claude-3-5-sonnet-20240620",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Provide only the transcription",
+            "message": "In the matter of the application of Mrs Mary Hause\nwidow of John Hause for certain arrears of pension.\n\nState of New York\nOneida County ss:\n\nMary Hause being duly sworn says\nthat the family record of John Hause herewith annex-\ned is a true and correct record of the marriage of said\nHause to this deponent, & the birth of their children, as kept\nby said Hause, and taken from the old family bible\nof said John & Mary Hause in the possession of this de-\nponent; that said record is genuine & is in the hand wri-\nting of said John Hause deceased.\nWitness to signature\n[illegible] Mary Hause\n                     her X mark\n\nSworn to and subscribed before me this 13th day\nof March A.D. 1855. And I hereby certify that I believe\nthe annexed record is the true and genuine record\nof the marriage of John & Mary Hause & the birth of their\nchildren.\n\nGiven under my hand and seal\nof the Surrogate's Court this 13th day of\nMarch 1855.\n[illegible] W. Bacon\n              Surrogate",
+            "aspect_ratio": "1932:2807",
+            "word_distance": "0.2646"
+        },
+        {
+            "model": "gpt-4o-2024-05-13",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
+            "message": "In the matter of the application of Mrs. Mary Haun\nwidow of John Haun for certain arrears of pension &c\n\nState of New York\nOneida County ss.\n\n                Mary Haun being duly sworn says that the family record of John Haun hereunto annexed is a true and correct record of the marriage of said Haun to this deponent, & the birth of their children, as kept by said Haun, and taken from the old family bible of said John & Mary Haun in the possession of this deponent; that said record, as given, is in the hand writing of said John Haun deceased.\n\nWitness to signature\n                   R. M. M. Bartort                       Mary X Haun\n                                                                                     her mark\n\nSworn to and subscribed before me this 15th day of March A.D. 1853. And I hereby certify that I believe the annexed record is the true and genuine record of the Marriage of John & Mary Haun & the birth of their children.\n\n                Given under my hand and seal of the Surrogates Court this 15th day of\n        March 1853 -\n                                                      Rob. M. Bartort\n                                                              Surrogate",
+            "aspect_ratio": "1932:2807",
+            "word_distance": "0.2160"
+        },
+        {
+            "model": "Mixtral",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription: https://s3.amazonaws.com/NARAprodstorage/opastorage/live/39/9317/54931739/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1336/images/4159578_00892.jpg",
+            "message": " Deposition of James McClelland\n\nState of Ohio, County of Belmont\n\nOn this 24th day of March A.D. 18",
+            "aspect_ratio": "1932:2807",
+            "word_distance": "1.1781"
+        }
+    ]
+}
