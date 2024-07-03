@@ -1,4 +1,6 @@
 import json
+import requests
+from PIL import Image
 from os.path import exists
 
 
@@ -13,10 +15,15 @@ def extract_json(file_path):
 # Logs information about the transcription to compare
 def log_transcription(message, model, distance, prompt, url):
     file = url.rsplit('/', 1)[-1].split('.')[0]
+
+    image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
+    size = image.size
+
     info = {
         "model": model,
         "prompt": prompt,
         "message": message,
+        "aspect_ratio": f"{size[0]}:{size[1]}",
         "word_distance": "%.4f" % distance,
     }
     output_file = f"logs/{file}.json"
