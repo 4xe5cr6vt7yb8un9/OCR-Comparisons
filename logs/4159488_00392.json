@@ -1,67 +1,38 @@
 {
     "transcripts": [
         {
-            "model": "gpt-4o-2024-05-13",
-            "prompt": "Transcribe this image as accurately as possible. Only include the text extracted from the document",
-            "message": "Rey  WIDOW, &c.\n\nFile No. 12976\n\nHannah Bound\nFormerly Wid. of\nJames Hoadge.\nDist. Wis. War.\n\nAct: July 27, 1868\n\nIndex.--Vol. A Page 102\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "2000:2692",
-            "word_distance": "0.6755"
-        },
-        {
-            "model": "claude-3-5-sonnet-20240620",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Provide only the transcription",
-            "message": "WIDOW, &c.\n\nFile No. 10446\nHannah Bunce\nHannah Hill\nJames Wooley\nWest New York\n\nAct: Feby 28     1865\n\nIndex:\u2014Vol. a    , Page 108\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "2000:2692",
-            "word_distance": "0.7846"
-        },
-        {
-            "model": "claude-3-5-sonnet-20240620",
-            "prompt": "Please transcribe the text from the following image with high accuracy.",
-            "message": "Here's a transcription of the text from the image:\n\nWIDOW, &c.\n\nFile No. 10446\n\nHannah Bunn\nHannah Hill\nJames W. d Age\nWid. Mrs. Hannah\n\nAct: July 31 1865\n\nIndex:\u2014Vol. a, Page 108\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "2000:2692",
-            "word_distance": "0.8005"
-        },
-        {
+            "date": "07-05-2024",
             "model": "claude-3-5-sonnet-20240620",
             "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription. Do not say anything like 'Here is the transcription of the image'",
-            "message": "WIDOW, &c.\n\nFile No. 12476\n\nHannah Bund\nSpanish Mid. of\nJames Wedge\nPriv. Rev. War\n\nAct: Feby 3d 1853\n\nIndex:\u2014Vol. A, Page 102\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "651:800",
-            "word_distance": "0.5931"
+            "extracted_text": "WIDOW, &c.  File No. 10446  Hannah Burnk Jannah Hill James W[ illegible ] West Gin. Ward  Act: July 28 1865  Index:\u2014Vol. a, Page 108  [Arrangement of 1870.]",
+            "original_text": "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]",
+            "image_data": {
+                "width": 2000,
+                "height": 2692,
+                "aspect_ratio": "500:673"
+            },
+            "validation": {
+                "word_distance": "0.7774",
+                "cos_similarity": "0.5484",
+                "matching_words_row": "2"
+            }
         },
         {
-            "model": "gpt-4o-2024-05-13",
-            "prompt": "Transcribe this image as accurately as possible. Only include the text extracted from the document",
-            "message": "Rev. WIDOW, &c.\n\nFile No. 12476\n\nHannah Burns\nFormerly Wid of\nJames Hodge\nDist. Rev. War.\n\nAct: Feby 3, 1853\n\nIndex:- Vol. A, Page 102\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "651:800",
-            "word_distance": "0.3026"
-        },
-        {
-            "model": "gpt-4o-2024-05-13",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
-            "message": "Reg. WIDOW, &c.\n\nFile No. \n12776\n\nHannah Broad\n\nformerly Widow\n\nJames Woods  dec'd \nBrit. Rev. War.\n\nAct: July 7, 1835\n\nIndex: \u2014 Vol. A     Page 102\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "2000:2692",
-            "word_distance": "0.5180"
-        },
-        {
+            "date": "07-05-2024",
             "model": "gpt-4o-2024-05-13",
             "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
-            "message": "Rev WIDOW, &c.\n\nFile No. 12476\n\nHannah Burns\nFormerly Wid of\nJames Hodge\nDist. Rev. War\n\nAct: Feby. 3d 1853\n\nIndex: - Vol. A , Page 102\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "651:800",
-            "word_distance": "0.2713"
-        },
-        {
-            "model": "gpt-4o-2024-05-13",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
-            "message": "Refy                WIDOW, &c.\n\nFile No.             12975\n                            Hannah Brown\n                            formerly Widow of\n                            James Wood\n                               Brit. Rev. War.\nAct:                     July 7th, 1835\nIndex:-Vol. ____A____Page___102___\n\n[Arrangement of 1870.]",
-            "aspect_ratio": "2000:2692",
-            "word_distance": "0.6423"
-        },
-        {
-            "model": "Mixtral",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription: https://s3.amazonaws.com/NARAprodstorage/opastorage/live/57/8923/54892357/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1295/images/4159488_00392.jpg",
-            "message": " Deposition of JAMES MCCUNE\n\nState of Tennessee, Rutherford County\n\nOn this 27th day of March 18",
-            "aspect_ratio": "2000:2692",
-            "word_distance": "1.2003"
+            "extracted_text": "Reg WIDOW, &c.  File No. 1276 Hannah Burns Formerly Widow  James McDade  Dist. W. W. War.   Act: July 3d, 1855  Index:\u2014Vol. A Page 102  [Arrangement of 1870.]",
+            "original_text": "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]",
+            "image_data": {
+                "width": 2000,
+                "height": 2692,
+                "aspect_ratio": "500:673"
+            },
+            "validation": {
+                "word_distance": "0.5275",
+                "cos_similarity": "0.6668",
+                "matching_words_row": "0"
+            }
         }
     ]
 }
