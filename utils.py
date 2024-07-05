@@ -2,6 +2,21 @@ import json
 import requests
 from PIL import Image
 from os.path import exists
+from datetime import datetime
+
+from compare import word_distance, cos_similarity, percentage_correct
+
+
+# Function for finding the greatest common factor between two numbers
+def gcf(a, b):
+    if (not a >= b):
+        a, b = b, a
+
+    r = a % b
+    if r == 0:
+        return b
+    else:
+        return gcf(b, r)
 
 
 # Extracts testing data from json
@@ -13,18 +28,36 @@ def extract_json(file_path):
     return data
 
 # Logs information about the transcription to compare
-def log_transcription(message, model, distance, prompt, url):
+def log_transcription(message, original, model, prompt, url):
     file = url.rsplit('/', 1)[-1].split('.')[0]
 
     image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
     size = image.size
+    div = int(gcf(size[0], size[1]))
+
+    message = message.replace('\n', ' ')
+    original = original.replace('\n', ' ')
+
+    distance = word_distance([message, original])
+    similarity = cos_similarity(message, original)
+    correct = percentage_correct(message, original)
 
     info = {
+        "date": datetime.now().strftime('%m-%d-%Y'),
         "model": model,
         "prompt": prompt,
-        "message": message,
-        "aspect_ratio": f"{size[0]}:{size[1]}",
-        "word_distance": "%.4f" % distance,
+        "extracted_text": message,
+        "original_text": original,
+        "image_data": {
+            "width": size[0],
+            "height": size[1],
+            "aspect_ratio": f"{size[0]/div:.0f}:{size[1]/div:.0f}",
+        },
+        "validation": {
+            "word_distance": "%.4f" % distance,
+            "cos_similarity": "%.4f" % similarity,
+            "matching_words_row": "%.0f" % correct,
+        }
     }
     output_file = f"logs/{file}.json"
 
