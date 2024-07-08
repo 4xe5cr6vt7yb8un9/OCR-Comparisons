@@ -62,9 +62,13 @@ def cos_similarity(a, b):
     return cosine
 
 # Calculates the percentage of correct words that are in the correct spot
-def percentage_correct(a, b):
-    a_list = a.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
-    b_list = b.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
+def greatest_correct(a, b):
+    if (type(a) == str):
+        a_list = a.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
+        b_list = b.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
+    else:
+        a_list = a
+        b_list = b
 
     length = len(a_list) if len(a_list) < len(b_list) else len(b_list)
 
@@ -72,7 +76,48 @@ def percentage_correct(a, b):
     for i in range(length):
         if a_list[i].strip() == b_list[i].strip():
             correct += 1
+        elif length-i > correct:
+            far = greatest_correct(a_list[i+1:], b_list[i+1:])
+            if far > correct:
+                correct = far
+            break
         else:
             break
 
     return correct
+
+def levenshtein_distance(s1, s2):
+    m = len(s1)
+    n = len(s2)
+
+    dp = [[0 for _ in range(n+1)] for _ in range(m+1)]
+
+    for i in range(m+1):
+        dp[i][0] = i
+    for i in range(n+1):
+        dp[0][i] = i
+
+    for i in range(1, m+1):
+        for j in range(1, n+1):
+            if s1[i-1] == s2[j-1]:
+                dp[i][j] = dp[i-1][j-1]
+            else:
+                dp[i][j] = 1 + min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1])
+
+    return dp[m][n]
+
+
+if __name__ == "__main__":
+    # Test the functions
+    
+    s1 = 'I Darius Branch, of Castleton in the County of Rutland, and State of Vermont, testify and say, that I was living with my Father in the south east part of Bennington, in the fall of the year 1782, near the residence of Capt. Jonathan Scott, and was present at his house in the early part of Sep- tember (as I think) and saw Samuel Holmes and Sallena Scott united in marriage by Moses Robinson Esq. I cannot recollect the precise day of the month, but distinctly remember that there was a party of tories discovered going through a pasture in the east- erly part of Bennington, which caused the inhabitants to suspect that all was not right; the alarm was immediately given to my Father and others, and a Company of men raised who went in pursuit, and after pur- suing them about eight miles, captur- ed them on the Green Mountain, I think twelve in number, with a Capt. Blakeslee and a negro man whom the tories had taken and were carrying off or leading off to Canada; I was too young to be one of the pursuers, being now in my seventy eighth year, but I am con- fident that Samuel Holmes was one of the party; I was present at the house of Gen. Samuel Safford and saw the Tories when they were brought in by our Troops; I was intimately acquaint-'
+    s2 = 'I Darius Branch, of Castleton in the County of Rutland, and State of Vermont, testify and say, that I was living with my Father in the south east part of Bennington in the fall of the year 1782, near the residence of Capt. Jonathan Scott, and was present at his house in the early part of September, (as I think,) and say Samuel Holmes and Sallena Scott united in marriage by Moses Robinson, Esq. I cannot recollect the precise day of the month, but distinctly remember that there was a party of tories discovered going through a pasture in the easterly part of Bennington, which caused the inhabitants to suspect that all was not right; the alarm was immediately given to my Father and others, and a Company of men raised who went in pursuit, and after pursuing them about eight miles, captured them on the Green Mountain, I think twelve in number, with a Capt. Blakeslee and a negro man whom the tories had taken and were carrying off or leading off to Canada; I was too young to be one of the pursuers, being now in my twenty eight year, but am confident that Samuel Holmes was one of the party; I was present at the house of Gen. Samuel Safford and saw the Tories when they were brought in by our Troops; I was intimately acquaint-'
+
+    d1 = "The large dog screamed"
+    d2 = "The small dog screamed"
+
+    d = levenshtein_distance(s1, s2)
+    print(f"Distance = {d}")
+
+    c = greatest_correct(s1, s2)
+    print(f"Most Correct = {c}")
