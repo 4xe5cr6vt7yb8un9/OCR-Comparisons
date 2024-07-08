@@ -4,7 +4,7 @@ from PIL import Image
 from os.path import exists
 from datetime import datetime
 
-from compare import word_distance, cos_similarity, percentage_correct
+from compare import word_distance, cos_similarity, greatest_correct, levenshtein_distance
 
 
 # Function for finding the greatest common factor between two numbers
@@ -40,14 +40,15 @@ def log_transcription(message, original, model, prompt, url):
 
     distance = word_distance([message, original])
     similarity = cos_similarity(message, original)
-    correct = percentage_correct(message, original)
+    leven_distance = levenshtein_distance(message, original)
+    correct = greatest_correct(message, original)
 
     info = {
         "date": datetime.now().strftime('%m-%d-%Y'),
         "model": model,
         "prompt": prompt,
-        "extracted_text": message,
         "original_text": original,
+        "extracted_text": message,
         "image_data": {
             "width": size[0],
             "height": size[1],
@@ -56,17 +57,18 @@ def log_transcription(message, original, model, prompt, url):
         "validation": {
             "word_distance": "%.4f" % distance,
             "cos_similarity": "%.4f" % similarity,
-            "matching_words_row": "%.0f" % correct,
+            "levenshtein_distance": "%.0f" % leven_distance,
+            "greatest_matching_words": "%.0f" % correct,
         }
     }
     output_file = f"logs/{file}.json"
 
     if not exists(output_file):
         with open(output_file,'w') as file:
-            json.dump({"transcripts": [info]}, file, indent = 4)
+            json.dump({"transcripts": [info]}, file, indent = 4, ensure_ascii=False)
     else:
         with open(output_file,'r+') as file:
             file_data = json.load(file)
             file_data["transcripts"].append(info)
             file.seek(0)
-            json.dump(file_data, file, indent = 4)
+            json.dump(file_data, file, indent = 4, ensure_ascii=False)
