@@ -1,7 +1,7 @@
 import base64
 import httpx
 
-from utils import log_transcription
+from helpers.utils import log_transcription
 
 
 # Handles the api request for claude

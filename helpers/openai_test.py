@@ -1,4 +1,4 @@
-from utils import log_transcription
+from helpers.utils import log_transcription
 
 # Handles the api request for ChatGPT
 def transcribe_image(url, prompt, client):

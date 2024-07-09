@@ -4,7 +4,7 @@ from PIL import Image
 from os.path import exists
 from datetime import datetime
 
-from compare import word_distance, cos_similarity, greatest_correct, levenshtein_distance
+from helpers.compare import word_distance, cos_similarity, greatest_correct, levenshtein_distance
 
 
 # Function for finding the greatest common factor between two numbers
