@@ -82,35 +82,45 @@ def levenshtein_distance(s1, s2):
 
     return dp[m][n]
 
-# Calculates the percentage of correct words that are in the correct spot
-def greatest_correct(a, b):
-    if (type(a) == str):
-        a_list = a.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
-        b_list = b.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
+# Calculates greatest number of correct words in a row
+def greatest_correct(s1, s2):
+    a_list = s1.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
+    b_list = s2.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
 
-        a_list = [i for i in a_list if i]
-        b_list = [i for i in b_list if i]
-    else:
-        a_list = a
-        b_list = b
+    a_list = [i for i in a_list if i]
+    b_list = [i for i in b_list if i]
 
     greatest = 0
-    correct = 0
 
-    i = 0
-    while i < len(a_list):
-        for j in range(len(b_list)):
-            # print(f'A {a_list[i].strip()}, B {b_list[j].strip()}')
-            if (i < len(a_list) and a_list[i].strip() == b_list[j].strip()):
-                correct += 1
-                i += 1
-            elif correct > greatest:
-                greatest = correct
-                correct = 0
-            elif (i < len(b_list)):
-                break
-        i += 1
-    return correct
+    while (len(a_list) > greatest):
+        count = great2(a_list, b_list)
+
+        if count > greatest:
+            greatest = count
+
+        if (count == 0 or count == 1):
+            count += 1
+
+        a_list = a_list[count:]
+
+    return greatest
+        
+
+def great2(a_list, b_list):
+    b = " ".join(i for i in b_list)
+    matche = ""
+
+    count = 0
+    for a in a_list:
+        count += 1
+        matche = " ".join([matche, a])
+
+        f = b.count(matche.strip())
+        if f == 0:
+            print(matche)
+            return count-1
+
+    return count
 
 
 if __name__ == "__main__":
@@ -125,8 +135,11 @@ if __name__ == "__main__":
     t1 = "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]"
     t2 = "Roy WIDOW, &c.  File No. 12756 Hannah Burns James, Wid. James Hodge Dist  ___ War  Act: July 27, 1868  Index.�Vol. A     Page 102  [Arrangement of 1870.]"
 
-    d = levenshtein_distance(s1, s2)
-    print(f"Distance = {d}")
+    c1 = 'I Darius Branch, of Castleton in the County of Rutland, and State of Vermont, testify and say'
+    c2 = 'I Darius Branch, of Castleton in the County of Rutland, and State of eVermont, testify and say'
 
-    c = greatest_correct(t1, t2)
+    #d = levenshtein_distance(s1, s2)
+    #print(f"Distance = {d}")
+
+    c = greatest_correct(s1, s2)
     print(f"Most Correct = {c}")
