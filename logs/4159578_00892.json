@@ -1,37 +1,39 @@
 {
     "transcripts": [
         {
-            "date": "07-05-2024",
-            "model": "claude-3-5-sonnet-20240620",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription. Do not say anything like 'Here is the transcription of the image'",
-            "extracted_text": "In the matter of the application of Mrs Mary Hause widow of John Hause for certain arears of pension.  State of New York Oneida County ss:  Mary Hause being duly sworn says that the family record of John Hause herewith annex- ed is a true and correct record of the marriage of said Hause to this deponent, & the birth of their children, as kept by said Hause, and taken from the old family bible of said John & Mary Hause in the possession of this de- ponent; that said record is genuine & is in the hand wri- ting of said John Hause deceased. Witness to signature JW Bates      Mary Hause                      her X mark  Sworn to and subscribed before me this 13th day of March A.D. 1855. And I hereby certify that I believe the annexed record is the true and genuine record of the marriage of John & Mary Hause & the birth of their children.  Given under my hand and seal of the Surrogate's Court this 13th day of March 1855. JW Bates Surrogate",
+            "date": "07-09-2024",
+            "model": "gpt-4o-2024-05-13",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
             "original_text": "In the matter of the application of Mrs. Mary House widow of John House for certain arrears of pension State of New York Oneida County: Mary House being duly sworn says that the family record of John House hereunto annexed is a true and correct record of the marriage of said House to this deponent & the births of their children as kept by said House, and taken from the old family bible of said John & Mary House in the possession of the deponent that said record is genuine is in the hand writing of said John House deceased. Witness to signature R. McIntosh Mary House x her mark Sworn to and subscribed before on this 15th day of March A.D. 1853 and I hereby certify that I believe the annexed record is the true and genuine record of the marriage of John & Mary House & the births of their children. Given under my hand and seal of the [illegible] Court this 15th day of March 1853. Ralph McIntosh Special Surrogate",
+            "extracted_text": "In the matter of the application of Mrs. Mary Haws widow of John Haws for certain arrears of pension &c.  State of New York Oneida County SS:  Mary Haws being duly sworn says that the Family record of John Haws hereinto annexed is a true and correct record of the marriage of said Haws & his children & the birth of their children, as kept by said Haws and taken from the old family bible of said John & Mary Haws now in possession of this de ponant. That said record is genuine as is the hand writing of said John Haws deceased.   Witness to signature      P. M. Canteny            Mary Haws                                   her                                    Mark (sic)  Sworn to and subscribed before me this 15th day of March A.D. 1853. And I hereby certify that I believe the annexed record is the true and genuine record of the Marriage of John & Mary Haws & the birth of their children.  Given under my hand and seal of the Surrogate Court this 15th day of March 1853-                                                Ruben M. Cardon                                                     Surrogate ",
             "image_data": {
                 "width": 1932,
                 "height": 2807,
                 "aspect_ratio": "276:401"
             },
             "validation": {
-                "word_distance": "0.2778",
-                "cos_similarity": "0.7468",
-                "matching_words_row": "7"
+                "word_distance": "0.2647",
+                "cos_similarity": "0.7683",
+                "levenshtein_distance": "296",
+                "greatest_matching_words": "22"
             }
         },
         {
-            "date": "07-05-2024",
-            "model": "gpt-4o-2024-05-13",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
-            "extracted_text": "In the matter of the application of Mrs Mary Hause widow of John Hause for certain arrears of pension &c.  State of New York Oneida County ss:  Mary Hause being duly sworn says that the family record of John Hause hereunto annexed is a true and correct record of the marriage of said Hause & his wife, & the birth of their children, as kept by said Hause, and taken from the old family bible of said John & Mary Hause now the possession of this de - ponant, that said record is genuine as is the Hand wri- ting of said John Hause deceased. Witness to aspiration                      R.W. Benton               Mary Hause                                                           her mark  Sworn to and subscribed before me this 15th day of March A.D. 1853. And I hereby certify that I believe the annexed record is the true and genuine record of the Marriage of John & Mary Hause & the birth of their children            Given under my hand and seal           of the Surrogate Court this 15th day of           March 1853                                         Ralph W. Rowe                    Special Judge                    & Surrogate",
+            "date": "07-09-2024",
+            "model": "claude-3-5-sonnet-20240620",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription. Do not say anything like 'Here is the transcription of the image'",
             "original_text": "In the matter of the application of Mrs. Mary House widow of John House for certain arrears of pension State of New York Oneida County: Mary House being duly sworn says that the family record of John House hereunto annexed is a true and correct record of the marriage of said House to this deponent & the births of their children as kept by said House, and taken from the old family bible of said John & Mary House in the possession of the deponent that said record is genuine is in the hand writing of said John House deceased. Witness to signature R. McIntosh Mary House x her mark Sworn to and subscribed before on this 15th day of March A.D. 1853 and I hereby certify that I believe the annexed record is the true and genuine record of the marriage of John & Mary House & the births of their children. Given under my hand and seal of the [illegible] Court this 15th day of March 1853. Ralph McIntosh Special Surrogate",
+            "extracted_text": "In the matter of the application of Mrs Mary Hause widow of John Hause for certain arrears of pension.  State of New York Oneida County ss:  Mary Hause being duly sworn says that the family record of John Hause herewith annex- ed is a true and correct record of the marriage of said Hause to this deponent, & the births of their children, as kept by said Hause, and taken from the old family bible of said John & Mary Hause in the possession of this de- ponent; that said record is genuine & in the hand wri- ting of said John Hause deceased. Witness to signature [illegible] Mary Hause                    her X mark  Sworn to and subscribed before me this 13th day of March A.D. 1855. And I hereby certify that I believe the annexed record is the true and genuine record of the marriage of John & Mary Hause & the births of their children.  Given under my hand and seal of the Surrogates Court this 13th day of March 1855. [illegible] W. Balon Judge [illegible]",
             "image_data": {
                 "width": 1932,
                 "height": 2807,
                 "aspect_ratio": "276:401"
             },
             "validation": {
-                "word_distance": "0.2174",
-                "cos_similarity": "0.7820",
-                "matching_words_row": "7"
+                "word_distance": "0.2645",
+                "cos_similarity": "0.7871",
+                "levenshtein_distance": "116",
+                "greatest_matching_words": "1"
             }
         }
     ]

@@ -1,37 +1,39 @@
 {
     "transcripts": [
         {
-            "date": "07-05-2024",
-            "model": "claude-3-5-sonnet-20240620",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription. Do not say anything like 'Here is the transcription of the image'",
-            "extracted_text": "New certificate issued 17 April 1843 by E.C. Blenheim, N.J. Letter to E. Halliday 8 April 1841 10 Dec. 1840.  Dead Paid at the Treasury under the Act of the 6th April 1838, from 24 May 1838 to 24 July 1840 her day of Death. Cert. Notified 26 Dec. 1840 Letter to E. Halliday 23 June 1841  Albany 3152 Bathsheba Howard widow of Theophilus Howard who was a private under Capt. [illegible] from 7 June 1832 who died on the 23. May 1838 of Schohari Co. in the State of N. York who was a Private in the company commanded by Captain Porter of the reg't. commanded by Col. Vansant in the N.J. line for 12 months 9 18 days  Inscribed on the Roll of Albany at the rate of 42 Dollars \u2014 Cents per to commence on the 24 May 1838 24. May. 1838  Certificate of Pension issued the 18. day of January 1840 and sent to S.R. Suyler Blenheim N.J.  Arrears to the 24th of Sept. '38         53.78 Semi-annual allowance ending 4 Mar '40  21.00                                         $74.78  Revolutionary Claim, Act July 4, 1836, Section the 3.  Recorded by D. Brown         Clerk, Book A   Vol. 2.   Page 200",
+            "date": "07-09-2024",
+            "model": "gpt-4o-2024-05-13",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
             "original_text": "New certificate issued 17. April 1840 M.P. Tyler Esquire Blenheim, N.Y. Letter to E. Holliday and Bathsheba 10. 1840 Dead Paid at the heanry under the order of the 6th army 1838 drawn 24 May 1838 to 21 July 1840, the day of holidied 26 1840 letter to E. Holiday 22 July 1841 Alimony 3182 Bathsheba Howard Widow of Theophiles Howard who was a pensioner under of June 7, 1832 who died on the 23. May 1838 of Sehohanie Co. in the State of New York who was a Private in the Cantle navy. Commander by captain Pontes of the next. Commander by Col. Sergeant in the May. line got 12 months and 18 days Facilitated on the Roll of Albany the rate of 42 dollars to commence on the day of March, 1834. 24. May 1838 Certificate of pension issued the 18 day of January 1840 and sent to N.O. Tyler Blenheim. N.Y. attained to the 4th of July. 38 53.70 Semi-annunal allowance ending 4. may 40 21.00 $74.78 Revolutionary claim, Act July 4, 1836 Recorded by D. Brown Book A. Vol 2. Clerk Page 209",
+            "extracted_text": "New certificate issued 17 April 1840 R. B. T. of Treasury Southern to N.Y. Letter to E. Holliday E. H. Azkatar (?) 10 Dec. 1840. Dead Paid at the Treasury under the Act of the 6th April 1838 from 4th May 1838 to 26th July 1840, the day of his death. Notified 26th Dec. 1840 Letter to E. Holliday 30th Aug. 1834.  Albany 3182 Bathsheba Howard widow of Theophilus Howard, who was a Pensioner under Act June 7th, 1832 who died on the 25th day 1835. of Columbia Co. in the State of N.York, who was a Private in the company commanded by Captain Porter, 16th reg’t command. by Col. Sargent, in the Mass. line for 12 months 18 days.  Inscribed on the Roll of Albany at the rate of 42 Dollars ... Cents for to commence on the 4th day of March, 1836. 24 May 1838  Certificate of Pension issued the 18th day of January 1837 and sent to R. B. Tryoe Bathsheba H.  Increased to the 4th of Sep. '66  Semi-annual allowance ending 4  Mar. 00         21.00  74.75  Recorded by D. Brown Book A. Vol. 2. Page 206. Clerk.  Revolutionary Claim Act July 4, 1836, Section the 3.",
             "image_data": {
                 "width": 2016,
                 "height": 2687,
                 "aspect_ratio": "2016:2687"
             },
             "validation": {
-                "word_distance": "0.4211",
-                "cos_similarity": "0.5677",
-                "matching_words_row": "3"
+                "word_distance": "0.4185",
+                "cos_similarity": "0.5514",
+                "levenshtein_distance": "343",
+                "greatest_matching_words": "6"
             }
         },
         {
-            "date": "07-05-2024",
-            "model": "gpt-4o-2024-05-13",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
-            "extracted_text": "New certificate June 17- April 1840 & 3 July 1840 Bathsheba & E. H. Letter to E. Holliday & Trunkister 10 Read 1840  Dead Paid at the Treasury under the Act of the 16th April, 1838 from the 4th May 1838 to 4th Aug. 1840; the day of his death. Ltrs Notified 26 Nov. 1840 Letter to E. Holliday 29 Aug. 1840  Albany 3182 Bathsheba Howard widow of Theophilus Howard, who was a pensioner under the act of June 7, 1832 who died on the 23 Aug. 1835, in Yorkscharie Co. in the State of New York who was a Private in the company commanded by Captain Porter of the reg\u2019t. commanded by Col. Saganr in the Mass. line for 12 months & 13 days  Inscribed on the Roll at Albany  at the rate of 42 Dollars --- Cents for  to commence on the 4th day of March. Agt.  24th May 1838   Certificate of Pension issued the 18th day of January 1828 and sent to H. L. Boyer Benhams L.S. Arrears to the 4th of Sep. 53.75 Semi-annual allowance ending 4 Mar. 00 21.00 $74.75  Recorded by D. Brown Book A Vol 2. Page 206  Revolutionary Claim Act July 4, 1836 Section the 3",
+            "date": "07-09-2024",
+            "model": "claude-3-5-sonnet-20240620",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription. Do not say anything like 'Here is the transcription of the image'",
             "original_text": "New certificate issued 17. April 1840 M.P. Tyler Esquire Blenheim, N.Y. Letter to E. Holliday and Bathsheba 10. 1840 Dead Paid at the heanry under the order of the 6th army 1838 drawn 24 May 1838 to 21 July 1840, the day of holidied 26 1840 letter to E. Holiday 22 July 1841 Alimony 3182 Bathsheba Howard Widow of Theophiles Howard who was a pensioner under of June 7, 1832 who died on the 23. May 1838 of Sehohanie Co. in the State of New York who was a Private in the Cantle navy. Commander by captain Pontes of the next. Commander by Col. Sergeant in the May. line got 12 months and 18 days Facilitated on the Roll of Albany the rate of 42 dollars to commence on the day of March, 1834. 24. May 1838 Certificate of pension issued the 18 day of January 1840 and sent to N.O. Tyler Blenheim. N.Y. attained to the 4th of July. 38 53.70 Semi-annunal allowance ending 4. may 40 21.00 $74.78 Revolutionary claim, Act July 4, 1836 Recorded by D. Brown Book A. Vol 2. Clerk Page 209",
+            "extracted_text": "New certificate issued 17 April 1843 by S.R. [illegible], N.Y.  Letter to E. Halliday 8 Feb & 10 Dec 1840.  Dead Paid at the Treasury under the Act of the 6th April 1838, from 4th Mar 1838 to 4th July 1840 the day of her death. Cert Notified 26 Dec 1840  Letter to E. Halliday 23 July 1841  Albany 3152 Bathsheba Howard widow of Theophilus Howard who was a private under Capt. [illegible] June 7, 1832 who died on the 23. May 1838 of Schorharie Co. in the State of N. York who was a Private in the company commanded by Captain Porter of the regt. commanded by Col. Sergeant in the Mass. line for 12 months 9 18 days  Inscribed on the Roll of Albany at the rate of 42 Dollars -- Cents per to commence on the 4th day of March, 1831.              24. May. 1838  Certificate of Pension issued the 18. day of January 1840 and Sent to S.R. Ingelb. Blenheim N.Y.  Arrears to the 24th of Sept. '38        53.78 Semi-annual allowance ending 4. Mar '40  21.00                                         $74.78  {Revolutionary Claim, {Act July 4, 1836, {Section the 3.  Recorded by D. Brown, Clerk, Book A  Vol. 2.  Page 200",
             "image_data": {
                 "width": 2016,
                 "height": 2687,
                 "aspect_ratio": "2016:2687"
             },
             "validation": {
-                "word_distance": "0.4394",
-                "cos_similarity": "0.5359",
-                "matching_words_row": "2"
+                "word_distance": "0.4299",
+                "cos_similarity": "0.5883",
+                "levenshtein_distance": "322",
+                "greatest_matching_words": "3"
             }
         }
     ]
