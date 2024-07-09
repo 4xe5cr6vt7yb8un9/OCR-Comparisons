@@ -64,10 +64,10 @@ def log_transcription(message, original, model, prompt, url):
     output_file = f"logs/{file}.json"
 
     if not exists(output_file):
-        with open(output_file,'w') as file:
+        with open(output_file, 'w', encoding='utf-8') as file:
             json.dump({"transcripts": [info]}, file, indent = 4, ensure_ascii=False)
     else:
-        with open(output_file,'r+') as file:
+        with open(output_file, 'r+', encoding='utf-8') as file:
             file_data = json.load(file)
             file_data["transcripts"].append(info)
             file.seek(0)
