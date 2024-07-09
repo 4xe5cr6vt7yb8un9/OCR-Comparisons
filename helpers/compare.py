@@ -117,7 +117,6 @@ def great2(a_list, b_list):
 
         f = b.count(matche.strip())
         if f == 0:
-            print(matche)
             return count-1
 
     return count
