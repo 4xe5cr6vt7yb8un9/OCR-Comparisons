@@ -61,6 +61,7 @@ def cos_similarity(a, b):
     cosine = c / float((sum(keyA) * sum(keyB)) ** 0.5)
     return cosine
 
+# Uses Matrix math to find the levenshtein distance between two sentences
 def levenshtein_distance(s1, s2):
     m = len(s1)
     n = len(s2)

@@ -1,6 +1,6 @@
 from utils import log_transcription
 
-# Use ChatGPT to transcribe the given image
+# Handles the api request for ChatGPT
 def transcribe_image(url, prompt, client):
     response = client.chat.completions.create(
         model="gpt-4o",
@@ -25,6 +25,7 @@ def transcribe_image(url, prompt, client):
     )
     return response
 
+# Use ChatGPT to transcribe the given image
 def process_transcription_gpt(data, prompt, client):
     url = data.get('image_url')
 

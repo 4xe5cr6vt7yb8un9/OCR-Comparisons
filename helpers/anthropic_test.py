@@ -4,6 +4,7 @@ import httpx
 from utils import log_transcription
 
 
+# Handles the api request for claude
 def transcribe_image(url, prompt, client):
     image1_media_type = "image/jpeg"
     image1_data = base64.b64encode(httpx.get(url).content).decode("utf-8")
@@ -33,6 +34,7 @@ def transcribe_image(url, prompt, client):
     )
     return message
 
+# Transcribes the image using Claude
 def process_transcription_claude(data, prompt, client):
     url = data.get('image_url')
 

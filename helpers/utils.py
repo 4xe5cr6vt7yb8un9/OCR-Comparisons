@@ -31,18 +31,22 @@ def extract_json(file_path):
 def log_transcription(message, original, model, prompt, url):
     file = url.rsplit('/', 1)[-1].split('.')[0]
 
+    # Extracts the image data
     image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
     size = image.size
     div = int(gcf(size[0], size[1]))
 
+    # Removes newlines from the text
     message = message.replace('\n', ' ')
     original = original.replace('\n', ' ')
 
+    # Validates the transciption by comparing it to given text
     distance = word_distance([message, original])
     similarity = cos_similarity(message, original)
     leven_distance = levenshtein_distance(message, original)
     correct = greatest_correct(message, original)
 
+    # Creates dictionary containing transcription info
     info = {
         "date": datetime.now().strftime('%m-%d-%Y'),
         "model": model,
@@ -63,6 +67,7 @@ def log_transcription(message, original, model, prompt, url):
     }
     output_file = f"logs/{file}.json"
 
+    # Creates a new json file if one does not exist other wise appends to the existing file
     if not exists(output_file):
         with open(output_file, 'w', encoding='utf-8') as file:
             json.dump({"transcripts": [info]}, file, indent = 4, ensure_ascii=False)
