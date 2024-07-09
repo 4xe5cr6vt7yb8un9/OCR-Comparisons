@@ -61,31 +61,6 @@ def cos_similarity(a, b):
     cosine = c / float((sum(keyA) * sum(keyB)) ** 0.5)
     return cosine
 
-# Calculates the percentage of correct words that are in the correct spot
-def greatest_correct(a, b):
-    if (type(a) == str):
-        a_list = a.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
-        b_list = b.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
-    else:
-        a_list = a
-        b_list = b
-
-    length = len(a_list) if len(a_list) < len(b_list) else len(b_list)
-
-    correct = 0
-    for i in range(length):
-        if a_list[i].strip() == b_list[i].strip():
-            correct += 1
-        elif length-i > correct:
-            far = greatest_correct(a_list[i+1:], b_list[i+1:])
-            if far > correct:
-                correct = far
-            break
-        else:
-            break
-
-    return correct
-
 def levenshtein_distance(s1, s2):
     m = len(s1)
     n = len(s2)
@@ -106,6 +81,36 @@ def levenshtein_distance(s1, s2):
 
     return dp[m][n]
 
+# Calculates the percentage of correct words that are in the correct spot
+def greatest_correct(a, b):
+    if (type(a) == str):
+        a_list = a.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
+        b_list = b.replace(',', '').replace('- ', '').replace('-', ' ').split(' ')
+
+        a_list = [i for i in a_list if i]
+        b_list = [i for i in b_list if i]
+    else:
+        a_list = a
+        b_list = b
+
+    greatest = 0
+    correct = 0
+
+    i = 0
+    while i < len(a_list):
+        for j in range(len(b_list)):
+            # print(f'A {a_list[i].strip()}, B {b_list[j].strip()}')
+            if (i < len(a_list) and a_list[i].strip() == b_list[j].strip()):
+                correct += 1
+                i += 1
+            elif correct > greatest:
+                greatest = correct
+                correct = 0
+            elif (i < len(b_list)):
+                break
+        i += 1
+    return correct
+
 
 if __name__ == "__main__":
     # Test the functions
@@ -116,8 +121,11 @@ if __name__ == "__main__":
     d1 = "The large dog screamed"
     d2 = "The small dog screamed"
 
+    t1 = "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]"
+    t2 = "Roy WIDOW, &c.  File No. 12756 Hannah Burns James, Wid. James Hodge Dist  ___ War  Act: July 27, 1868  Index.�Vol. A     Page 102  [Arrangement of 1870.]"
+
     d = levenshtein_distance(s1, s2)
     print(f"Distance = {d}")
 
-    c = greatest_correct(s1, s2)
+    c = greatest_correct(t1, t2)
     print(f"Most Correct = {c}")
