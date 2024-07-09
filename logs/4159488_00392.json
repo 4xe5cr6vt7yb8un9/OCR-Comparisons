@@ -5,43 +5,25 @@
             "model": "gpt-4o-2024-05-13",
             "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
             "original_text": "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]",
-            "extracted_text": "Reg. WIDOW, &c.  File No. 12976  Hannah Brown  formerly Widow  James Hedge  Dist.     Revo. War.  Act: July 7, 1838  Index:—Vol. A Page 102  [Arrangement of 1870.]",
+            "extracted_text": "Rey  WIDOW, &c.  File No. 12176  Hannah Brown (formerly Weed) James \" Nedye Dist. Pen. War.  Act: July 2d            1862  Index. - Vol. ___ A Page 102  [Arrangement of 1870.]",
             "image_data": {
                 "width": 2000,
                 "height": 2692,
                 "aspect_ratio": "500:673"
             },
             "validation": {
-                "word_distance": "0.6397",
-                "cos_similarity": "0.6033",
-                "levenshtein_distance": "49",
-                "greatest_matching_words": "8"
+                "word_distance": "0.6744",
+                "cos_similarity": "0.5905",
+                "levenshtein_distance": "61",
+                "greatest_matching_words": "4"
             }
         },
         {
             "date": "07-09-2024",
             "model": "claude-3-5-sonnet-20240620",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription. Do not say anything like 'Here is the transcription of the image'",
+            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription.",
             "original_text": "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]",
-            "extracted_text": "WIDOW, &c.  File No. 10446  Hannah Burnl Savannah Wid. James Woolby West New York  Act: July 28 1865  Index:—Vol. A, Page 108  [Arrangement of 1870.]",
-            "image_data": {
-                "width": 2000,
-                "height": 2692,
-                "aspect_ratio": "500:673"
-            },
-            "validation": {
-                "word_distance": "0.7862",
-                "cos_similarity": "0.5484",
-                "levenshtein_distance": "48",
-                "greatest_matching_words": "7"
-            }
-        },
-        {
-            "date": "07-09-2024",
-            "model": "claude-3-5-sonnet-20240620",
-            "prompt": "Please transcribe the text from the following image with high accuracy. Ensure that all punctuation, capitalization, and formatting are preserved as closely as possible to the original. If any part of the text is illegible or unclear, indicate this with '[illegible]' in the transcription. Pay special attention to names, dates, and any specific terminology. Please provide only the transcription. Do not say anything like 'Here is the transcription of the image'",
-            "original_text": "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]",
-            "extracted_text": "WIDOW, &c.  File No. 10446  Hannah Bunt Fannoh Hill James Woddge West New York  Act: July 28 1865  Index:—Vol. a, Page 108  [Arrangement of 1870.]",
+            "extracted_text": "WIDOW, &c.  File No. 12446  Hannah Bunt Fannah Hill James Woolage West New York  Act: July 28 1865  Index:—Vol. a, Page 108  [Arrangement of 1870.]",
             "image_data": {
                 "width": 2000,
                 "height": 2692,
@@ -50,8 +32,8 @@
             "validation": {
                 "word_distance": "0.7850",
                 "cos_similarity": "0.5575",
-                "levenshtein_distance": "44",
-                "greatest_matching_words": "0"
+                "levenshtein_distance": "47",
+                "greatest_matching_words": "4"
             }
         }
     ]
