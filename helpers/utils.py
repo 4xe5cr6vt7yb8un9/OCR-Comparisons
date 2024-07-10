@@ -1,3 +1,4 @@
+import re
 import json
 import requests
 from PIL import Image
@@ -39,6 +40,10 @@ def log_transcription(message, original, model, prompt, url):
     # Removes newlines from the text
     message = message.replace('\n', ' ')
     original = original.replace('\n', ' ')
+
+    reg_str = "<transcript>(.*?)</transcript>"
+    res = re.findall(reg_str, message)
+    message = res[0]
 
     # Validates the transciption by comparing it to given text
     distance = word_distance([message, original])
