@@ -42,9 +42,10 @@ def process_transcription_claude(data, prompt, client):
 
     response = transcribe_image(url, prompt, client)
     extracted_text = response.content[0].text
+    tokens = response.usage.output_tokens
     manual_text = data.get("image_text")
 
-    log_transcription(extracted_text, manual_text, response.model, prompt, url)
+    log_transcription(extracted_text, manual_text, response.model, tokens, prompt, url)
 
     print("Finished transcription\n")
 

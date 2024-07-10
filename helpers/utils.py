@@ -29,7 +29,7 @@ def extract_json(file_path):
     return data
 
 # Logs information about the transcription to compare
-def log_transcription(message, original, model, prompt, url):
+def log_transcription(message, original, model, tokens, prompt, url):
     file = url.rsplit('/', 1)[-1].split('.')[0]
 
     # Extracts the image data
@@ -54,10 +54,13 @@ def log_transcription(message, original, model, prompt, url):
     # Creates dictionary containing transcription info
     info = {
         "date": datetime.now().strftime('%m-%d-%Y'),
+        "filename": file,
         "model": model,
         "prompt": prompt,
+        "url": url,
         "original_text": original,
         "extracted_text": message,
+        "total_tokens": tokens,
         "image_data": {
             "width": size[0],
             "height": size[1],
@@ -70,7 +73,7 @@ def log_transcription(message, original, model, prompt, url):
             "greatest_matching_words": "%.0f" % correct,
         }
     }
-    output_file = f"logs/{file}.json"
+    output_file = "logs/transcripts.json"
 
     # Creates a new json file if one does not exist other wise appends to the existing file
     if not exists(output_file):
