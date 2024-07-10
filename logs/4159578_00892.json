@@ -35,6 +35,24 @@
                 "levenshtein_distance": "153",
                 "greatest_matching_words": "22"
             }
+        },
+        {
+            "date": "07-09-2024",
+            "model": "Textract",
+            "prompt": "none",
+            "original_text": "In the matter of the application of Mrs. Mary House widow of John House for certain arrears of pension State of New York Oneida County: Mary House being duly sworn says that the family record of John House hereunto annexed is a true and correct record of the marriage of said House to this deponent & the births of their children as kept by said House, and taken from the old family bible of said John & Mary House in the possession of the deponent that said record is genuine is in the hand writing of said John House deceased. Witness to signature R. McIntosh Mary House x her mark Sworn to and subscribed before on this 15th day of March A.D. 1853 and I hereby certify that I believe the annexed record is the true and genuine record of the marriage of John & Mary House & the births of their children. Given under my hand and seal of the [illegible] Court this 15th day of March 1853. Ralph McIntosh Special Surrogate",
+            "extracted_text": "In the matter of the application of mis Mary Heaven under of John House for certain because of punish State of how Jack Ouida County As. Mary Hause being duly swasn says that the family record of John Hause humants anney- 2d is a true leud cource record of the municise of secial House li this debaunt, of the buth of thin childhen, as high by said Hause, and taken from the old family bible of said John 9 many Hause in the papepian of thinde. part that said record is funion. in in the hand usi, ling of daid John House deceased Withing li signature May muk The House X Severu to and Au breeked before mm this 15\" day of March A. $ 185-8- And I heechy cutiby that / believe the lumer ed record is the time and grumine record of the marriage of John of may Haure & the with of their children Given under my hand and seal of the Suning ater Camel this 15 day of Mark1853 Testim Butosi Pecant. Misrogath ",
+            "image_data": {
+                "width": 1932,
+                "height": 2807,
+                "aspect_ratio": "276:401"
+            },
+            "validation": {
+                "word_distance": "0.5901",
+                "cos_similarity": "0.3973",
+                "levenshtein_distance": "230",
+                "greatest_matching_words": "10"
+            }
         }
     ]
 }

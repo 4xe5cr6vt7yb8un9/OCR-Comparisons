@@ -35,6 +35,24 @@
                 "levenshtein_distance": "105",
                 "greatest_matching_words": "24"
             }
+        },
+        {
+            "date": "07-09-2024",
+            "model": "Textract",
+            "prompt": "none",
+            "original_text": "Declaration In order to obtain the benefits of the Acts of Congress 15th May 1828 7th July 1838 State of New York Oneida County: On this 21st day of October in the year of our Lord One thousand eight hundred and fifty two, personally appeared before the Honorable Ralph McIntosh Special Surrogate and Justice of a Court of Record in and for the County of Oneida and State of New York aforesaid Mary House aged eighty 80 years, a resident of Oneida in the County of Oneida, who being duly sworn according to law, doth upon her oath makes the following declaration in order to obtain she benefits of the provisions made by the Act of Congress passed 15th May 1828 entitled Pension granted to all the officers who served to the end of the Revolutionary War in the Continental Army also the Act of Congress passed July 7th 1838 entitled an Act granting half pay and pensions to certain widow and the other acts of Congress extending said act that she is the widow of John House deceased who was a private in the Revolutionary War in Company Commanded first by Captain Andrew Frink and afterwords and near the later part of said war by Captain Sytez in the first Military Regiment of the original Five Regiments of the New York troops in the Continental Line Commanded by Colonel Goose Van Schaicks, that he enlisted some time in about the month of January or February in the year of our lord seventeen",
+            "extracted_text": "Declaration; bu order 15 mg/8289 to obtain the benefits of the autoof Congrep of their 7th Jelly 1838. State of Newbask Oreida County p: in the year of Batr ford Ou this One 21 th day thousand of October right hundred and fifty too personally appeared before the Balph Medicitosh spe cial Surregate and Questice of a Court of Record, in for the County of Bhiida and aged Hand eighteffe a resident of Anide state. of New bask aforesaid (so) Isaeg House in the County of Oncider, who being duly sworso according to law, doth upon her oath make the benefits of the pravis ions made by the aof the following declar ation, in arder to obtain geanted to all the officers who seeted to the of Congret paped 15 may 1828entilled Pension and of the Recolestinating was in the continence tal army also the act of Congref paped pay and pension to Certain widows\" the only 7. 1888 entitted an ach \"granting half other a ol's of Cangrep extending said ad. That she is the loid ow of John House deceard soko was a private in the Revolutionary war- in a company commanded first by Captain Andrew Frink, and afterwords and near the latter part of said. was by Captain S.g. teg in the first Military Regiment of the might Froo Requirement the New york Grooks in He Continental Line. Commanded by Colonel Goade raw Schaicks thiah he enlisted some time in be about the mouth of of Currary as February in the gear of Our Lard Seventeen ",
+            "image_data": {
+                "width": 1928,
+                "height": 3021,
+                "aspect_ratio": "1928:3021"
+            },
+            "validation": {
+                "word_distance": "0.5139",
+                "cos_similarity": "0.4673",
+                "levenshtein_distance": "495",
+                "greatest_matching_words": "10"
+            }
         }
     ]
 }

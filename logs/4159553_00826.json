@@ -35,6 +35,24 @@
                 "levenshtein_distance": "24",
                 "greatest_matching_words": "126"
             }
+        },
+        {
+            "date": "07-09-2024",
+            "model": "Textract",
+            "prompt": "none",
+            "original_text": "I Darius Branch, of Castleton in the County of Rutland, and State of Vermont, testify and say, that I was living with my Father in the south east part of Bennington in the fall of the year 1782, near the residence of Capt. Jonathan Scott, and was present at his house in the early part of September, (as I think,) and say Samuel Holmes and Sallena Scott united in marriage by Moses Robinson, Esq. I cannot recollect the precise day of the month, but distinctly remember that there was a party of tories discovered going through a pasture in the easterly part of Bennington, which caused the inhabitants to suspect that all was not right; the alarm was immediately given to my Father and others, and a Company of men raised who went in pursuit, and after pursuing them about eight miles, captured them on the Green Mountain, I think twelve in number, with a Capt. Blakeslee and a negro man whom the tories had taken and were carrying off or leading off to Canada; I was too young to be one of the pursuers, being now in my twenty eight year, but am confident that Samuel Holmes was one of the party;—I was present at the house of Gen. Samuel Safford and saw the Tories when they were brought in by our Troops; I was intimately acquaint-",
+            "extracted_text": "l Darins Branch, of bastleton in the County of Rutland, and State of Vernion, testify and pay, that I was living with my Father in the south east part of Bennington in the fall of the year 1782, near the residence of bapt. Ionathan Scott, and was present at his house in the early part of Sep tember, lad I think and saw Samuel Holmis and Sallena Scott united in marriage by Moses Robinson, Psg. I cannot recollect the precive day of the mouth, but distinctly memember that there was a party of laries discovered going through a flasture in the east early part of Bunnington, which caused the inhabitants to suspect that all was not right; - the alarm was immediately given to my Father and others, and a Company of men raised who went in pursuit, and fun suing them about eight miles, capture ed them on the Green Mountain, I think twelve in number, with a Capt. Blakeslee and a negro man whom the tories had taken and were carrying 044 or leading off to Canada; I was too young to be one of the pursuers, beather now fident that Samuel Holmes was in my seventy ighthy car but am con one of the party; was present at the house of Gen Samuel Safford and saw the Tories when they were brought in by our Troops; I was intimate by ac quant ",
+            "image_data": {
+                "width": 1932,
+                "height": 2973,
+                "aspect_ratio": "644:991"
+            },
+            "validation": {
+                "word_distance": "0.2488",
+                "cos_similarity": "0.7267",
+                "levenshtein_distance": "107",
+                "greatest_matching_words": "32"
+            }
         }
     ]
 }

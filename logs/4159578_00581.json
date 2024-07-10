@@ -35,6 +35,24 @@
                 "levenshtein_distance": "687",
                 "greatest_matching_words": "16"
             }
+        },
+        {
+            "date": "07-09-2024",
+            "model": "Textract",
+            "prompt": "none",
+            "original_text": "State of New York Montgomery Margaret Timmerman being duly sworn deposth and saith that she is aged sixty seven years that she was acquainted with Henry House and Nancy House at the time they were married that she was present at the wedding and that she was also married at the same time at my fathers house in >>> in said county ceremony on the fifteenth day of February 1789 and that she knows that the said Henry House and Nancy his wife lives together for some time in the same town where she this deponent did in said town of >>> further south >>> Sworn and >>> before me this 4th day of September 1838 John Haven, Justice of the Peace Margaret Timmerman X her mark I John Haven a Justice of the Peace of the town of >>> in the county of Montgomery before whom the >>> of >>> was taken to hereby certify that I am well acquainted with Margaret Timmerman and do know her to be a person of good character for truth and veracity and her statement entitled to credit and that she was not taught to write and did mark her mark all before me September 4th, 1838. John Hawn, Justice State of New York Montgomery County Clerks Office I certify that John W. Hawn esq. whole name is subscribed to the Justice of the forgoing affidavit and proceedings was on the day of the date >>> a Justice of the Peace >>> and for the County of Montgomery duly elected and >>> and that the signature to the same is his genuine signature.",
+            "extracted_text": "Montgomery you being duly swan State forew York depressith. Y saith that she is aged listy Selvenspears that the was the House and Nancy House at time they well marria that she was Present at the Wedding and that she was also Marriad at the same time and and at father House in Mindum in vaidCounty Donning Peak performed the Marriage the Commony on the Hefternth day of February 1789 and that with where Lives together for same time in the same Form knows that the said Henry Houn and Nancy his fruitten darth of She this defonent did in said Town y Minda his This Sworm 4\" V Lubrature before me Margarit x Tunnumen day of 1838 mark John 10 Hawn fustin gi Peace I John WHATE a future of the Pean of the Four of Mindum in the County of Montherney before whom that am will acquanted with Mayant Timmurman the above I was when de hirtly artity and do know him to be u person of good Character for brutt and viracity ams her Statement Enalts to Credit and that she was not taught to write ans dia make her mark all lafer me Sept 4\" 1898 State York John Insticu Moutz, method bounty office) for I cutify that John Esgr whore home is Subscribed to the just dc of the fongoing appedamts was ou the day of date thuros a Justice of the Place corfer the Carriety of Moutgoming duly Elected and Penning signature audi that? the signature to the same is he's Testimone whom chause hen wrote set in the your 18380 - My have and appired My official leads this Eleventh day of September blecks / ",
+            "image_data": {
+                "width": 1932,
+                "height": 3140,
+                "aspect_ratio": "483:785"
+            },
+            "validation": {
+                "word_distance": "0.5830",
+                "cos_similarity": "0.3320",
+                "levenshtein_distance": "751",
+                "greatest_matching_words": "8"
+            }
         }
     ]
 }
