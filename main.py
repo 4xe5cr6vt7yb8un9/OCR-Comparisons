@@ -79,7 +79,7 @@ document.
     
     # Transcribe all documents
     for data in test_data.get('data', []):
-        transcribe_docs(data, prompt, gpt, claude, model)   
+        transcribe_docs(data, prompt2, gpt, claude, model)   
         
 
 if __name__ == "__main__":
