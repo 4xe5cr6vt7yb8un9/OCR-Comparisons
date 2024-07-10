@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from helpers.utils import extract_json
 from helpers.openai_test import process_transcription_gpt
 from helpers.anthropic_test import process_transcription_claude
-
+from helpers.textract_test import process_transcription_textract
 
 # Handles which model needs to be used for the transcription process
 def transcribe_docs(data, prompt, gpt, claude, model):
@@ -15,16 +15,19 @@ def transcribe_docs(data, prompt, gpt, claude, model):
             process_transcription_gpt(data, prompt, gpt)
         case ("anthropic"):
             process_transcription_claude(data, prompt, claude)
+        case ("textract"):
+            process_transcription_textract(data)
         case ("all"):
             process_transcription_gpt(data, prompt, gpt)
             process_transcription_claude(data, prompt, claude)
+            process_transcription_textract(data)
     
 # Main function for transcribing
 def main():
     load_dotenv()
 
     if (len(sys.argv) < 1):
-        print("Please provide which model to use; openai, anthropic, or all")
+        print("Please provide which model to use; openai, anthropic, textract, or all")
         return
 
     # Initialize the clients for each model
