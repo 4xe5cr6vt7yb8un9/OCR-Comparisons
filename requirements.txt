@@ -58,3 +58,5 @@ typing_extensions==4.12.2
 urllib3==2.2.2
 wrapt==1.16.0
 yarl==1.9.4
+amazon-textract-caller==0.2.2
+amazon-textract-prettyprinter==0.1.9

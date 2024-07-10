@@ -35,6 +35,24 @@
                 "levenshtein_distance": "65",
                 "greatest_matching_words": "51"
             }
+        },
+        {
+            "date": "07-09-2024",
+            "model": "Textract",
+            "prompt": "none",
+            "original_text": "No 1 State of New York Genesee County: On this seventeenth day of June in the year 1842, personally appeared before the Court of Common Pleas of the said county of Genesee Betsey Holmes a resident of the town of Attica in the county of Wyoming and State of New York aged eighty two years, who being first duly sworn according to law on her oath make the following declaration in order to obtain the benefit of the provision made by the Act of Congress passed July 4, 1836. That she is the widow of Moses Holmes, who was an assistant commissary in the Revolutionary war and served during the war for which he enlisted, but the particulars of his service she cannot particularly state and she refers to his Pension Declaration under the Act of the 7th June 1832 and the papers accompanying the same for proof of his services. She further states that her late husband , Moses Holmes, in a recent application for an increase of pension has set forth his services only for the term of four years, as he had been informed and believed that two years service only was necessary to be set forth in order to secure an increase of his pension, when in truth this declarant believes and knows that he served for a longer period and as she believes for and during the war. She further declares that she was married to the said Moses Holmes on the first day of June in the year one thousand and seven hundred and eighty, that her husband the aforesaid Moses Holmes died on the twenty fourth day of April last part and that she has remained a widow ever since that period, as will more fully appear by reference to the",
+            "extracted_text": "WI State of New Yah L Generic bounty on this twentrenth day of Sime lu the you 1842, personally appeared before the bout of Common Pleas of the said County of receive Betscy Holmes a resident of the torn of attica in the county of Hyoming and State of New Yah ay al Eighty two years, who bring first duly aware accounting to law doth, in her with make the following declaration midd to obtain the benefit of the printing made by the Act of Congress passed July 4. 1836 that the is the in tow of Moses Holmes, who was an assistant Commissing us the Revolutionary worr and send during the war for which he exlicted; but the particular of his Dercice she cannot particularly Chate and the refer to his Clusion Declaration muda the act of the 7th. since 1832 and the paper accompanying the fame for proof of his dervices. the further states that her late has band. Mom Holmes, in a recent application for an nicrean of Penici has set futh his service, only for the term of four years as he had been informed and believed that two years derice only was nicessay to be det futh in order to Scene an increase of his pension, when mi truth this Declarant believe and know that he send for a longer period and as the believy for and during the was The further declares that the was married to the said More Holmes on the first day of some in the year are thore and Seven hundred and eighty. that her hu band the afriraid Mour Holmes died on the twenty fourth day of april last part and that Uu has a widow an suice that period as will mue fully appear by reference to the ",
+            "image_data": {
+                "width": 1936,
+                "height": 2969,
+                "aspect_ratio": "1936:2969"
+            },
+            "validation": {
+                "word_distance": "0.4259",
+                "cos_similarity": "0.5770",
+                "levenshtein_distance": "207",
+                "greatest_matching_words": "17"
+            }
         }
     ]
 }

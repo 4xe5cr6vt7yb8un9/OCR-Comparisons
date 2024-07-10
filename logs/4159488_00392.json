@@ -35,6 +35,24 @@
                 "levenshtein_distance": "47",
                 "greatest_matching_words": "4"
             }
+        },
+        {
+            "date": "07-09-2024",
+            "model": "Textract",
+            "prompt": "none",
+            "original_text": "WIDOW, &c. File No. 10476 Hannah Burns Formerly wife of James Hodge Prvt Rev. War Act: Feby 3rd 1853 Index: -- Vol. a, Page 102 [Arrangement of 1870.]",
+            "extracted_text": "Ray WIDOW, &c. File No. 10476 Hannah Burns formuly Wid g Jumes Ho Hodge Pint Pen. War Act: Fely 3d 1835 Index:-Vol. a , Page 102 [Arrangement of 1870.] ",
+            "image_data": {
+                "width": 2000,
+                "height": 2692,
+                "aspect_ratio": "500:673"
+            },
+            "validation": {
+                "word_distance": "0.5635",
+                "cos_similarity": "0.6566",
+                "levenshtein_distance": "29",
+                "greatest_matching_words": "8"
+            }
         }
     ]
 }
