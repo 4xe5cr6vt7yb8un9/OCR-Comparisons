@@ -38,12 +38,14 @@ def log_transcription(message, original, model, tokens, prompt, url):
     div = int(gcf(size[0], size[1]))
 
     # Removes newlines from the text
-    message = message.replace('\n', ' ')
+    message = message.replace('\n', ' ').strip()
     original = original.replace('\n', ' ')
 
     reg_str = "<transcript>(.*?)</transcript>"
     res = re.findall(reg_str, message)
-    message = res[0]
+
+    if len(res) > 0:
+        message = res[0].strip()
 
     # Validates the transciption by comparing it to given text
     distance = word_distance([message, original])
