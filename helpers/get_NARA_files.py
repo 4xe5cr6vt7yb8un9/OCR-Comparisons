@@ -46,16 +46,25 @@ def extract_digital_objects(naID):
             }
             extracted_objects.append(extracted_obj)
 
-        output_file = f"documents/{naID}.json"
+        output_file = f"documents/NARA_files.json"
             
-        with open(output_file, 'w', encoding='utf-8') as file:
-            json.dump({"digitalObjects": extracted_objects}, file, indent = 4, ensure_ascii=False)
+        if not exists(output_file):
+            with open(output_file, 'w', encoding='utf-8') as file:
+                json.dump({"digitalObjects": extracted_objects}, file, indent = 4, ensure_ascii=False)
+        else:
+            with open(output_file, 'r+', encoding='utf-8') as file:
+                file_data = json.load(file)
+                for obj in extracted_objects:
+                    file_data["digitalObjects"].append(obj)
+                file.seek(0)
+                json.dump(file_data, file, indent = 4, ensure_ascii=False)
 
     else:
         return json.dumps({"error": f"Request failed with status code: {response.status_code}"})
 
 if __name__ == '__main__':
     # Pass in the NAID
+    id = input("Enter the NAID: ")
     ext = extract_digital_objects(naID=54953855)
 
     
