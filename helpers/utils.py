@@ -23,7 +23,7 @@ def gcf(a, b):
 # Extracts testing data from json
 def extract_json(file_path):
     # Load the JSON file
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     return data
