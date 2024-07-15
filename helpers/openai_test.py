@@ -22,7 +22,7 @@ def transcribe_image(url, prompt, client):
             }
         ],
         max_tokens=1024,
-        temperature=0.5,
+        temperature=0.3,
     )
     return response
 
