@@ -28,14 +28,14 @@ def transcribe_image(url, prompt, client):
 
 # Use ChatGPT to transcribe the given image
 def process_transcription_gpt(data, prompt, client):
-    url = data.get('image_url')
+    url = data.get('objectUrl')
 
     print(f"Transcribing image: {url}")
 
     response = transcribe_image(url, prompt, client)
     extracted_text = response.choices[0].message.content
     tokens = response.usage.total_tokens
-    manual_text = data.get("image_text")
+    manual_text = data.get("extractedText")
 
     log_transcription(extracted_text, manual_text, response.model, tokens, prompt, url)
 

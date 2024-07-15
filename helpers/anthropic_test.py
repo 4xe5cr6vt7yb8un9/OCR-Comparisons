@@ -36,14 +36,14 @@ def transcribe_image(url, prompt, client):
 
 # Transcribes the image using Claude
 def process_transcription_claude(data, prompt, client):
-    url = data.get('image_url')
+    url = data.get('objectUrl')
 
     print(f"Transcribing image: {url}")
 
     response = transcribe_image(url, prompt, client)
     extracted_text = response.content[0].text
     tokens = response.usage.output_tokens
-    manual_text = data.get("image_text")
+    manual_text = data.get("extractedText")
 
     log_transcription(extracted_text, manual_text, response.model, tokens, prompt, url)
 
