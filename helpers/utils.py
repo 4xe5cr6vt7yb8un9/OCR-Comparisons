@@ -37,15 +37,7 @@ def log_transcription(message, original, model, tokens, prompt, url):
     size = image.size
     div = int(gcf(size[0], size[1]))
 
-    # Removes newlines from the text
-    message = message.replace('\n', ' ').strip()
-    original = original.replace('\n', ' ')
-
-    reg_str = "<transcript>(.*?)</transcript>"
-    res = re.findall(reg_str, message)
-
-    if len(res) > 0:
-        message = res[0].strip()
+    message = message.replace("<transcription>", "").replace("</transcription>", "").strip("\n").strip()
 
     # Validates the transciption by comparing it to given text
     distance = word_distance([message, original])
