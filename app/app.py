@@ -4,7 +4,7 @@ import json
 app = Flask(__name__)
 
 # Load JSON data
-with open('../documents/NARA_files.json', 'r') as file:
+with open('documents/NARA_files.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 @app.route('/')
