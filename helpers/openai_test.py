@@ -37,6 +37,6 @@ def process_transcription_gpt(data, prompt, client):
     tokens = response.usage.total_tokens
     manual_text = data.get("extractedText")
 
-    log_transcription(extracted_text, manual_text, response.model, tokens, prompt, url)
+    log_transcription(extracted_text, manual_text, response.model, tokens, prompt, data)
 
     print("Finished transcription\n")
