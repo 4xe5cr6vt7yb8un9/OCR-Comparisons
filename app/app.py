@@ -18,10 +18,22 @@ def index():
     return render_template('index.html', transcripts=transcripts)
 
 @app.route('/transcript')
-def transcript():
+def transcripts():
     # Extract transcripts from the JSON data
     transcripts = data2.get('transcripts')
     return render_template('transcript.html', transcripts=transcripts)
+
+@app.route('/transcript/<id>')
+def transcript(id):
+    # Extract transcripts from the JSON data
+    transcripts = data2.get('transcripts')
+    valid = []
+
+    for transcript in transcripts:
+        if transcript.get('filename') == id:
+            valid.append(transcript)
+    
+    return render_template('transcript.html', transcripts=valid)
 
 
 if __name__ == '__main__':
