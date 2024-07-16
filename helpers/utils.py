@@ -1,4 +1,3 @@
-import re
 import json
 import requests
 from PIL import Image
@@ -29,8 +28,10 @@ def extract_json(file_path):
     return data
 
 # Logs information about the transcription to compare
-def log_transcription(message, original, model, tokens, prompt, url):
+def log_transcription(message, original, model, tokens, prompt, data):
+    url = data.get('objectUrl')
     file = url.rsplit('/', 1)[-1].split('.')[0]
+    id = data.get('objectId')
 
     # Extracts the image data
     image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
@@ -48,6 +49,7 @@ def log_transcription(message, original, model, tokens, prompt, url):
     # Creates dictionary containing transcription info
     info = {
         "date": datetime.now().strftime('%m-%d-%Y'),
+        "objectId": id,
         "filename": file,
         "model": model,
         "prompt": prompt,
