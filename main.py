@@ -26,6 +26,7 @@ def transcribe_docs(data, prompt, gpt, claude, model):
 def main():
     load_dotenv()
 
+    # Confirms that user has supplied a model to use
     if (len(sys.argv) < 1):
         print("Please provide which model to use; openai, anthropic, textract, or all")
         return
@@ -61,19 +62,27 @@ Once you have completed the transcription, provide your output within <transcrip
 your transcription immediately without any preamble or explanation. Ensure that your transcription accurately 
 reflects the content and structure of the original document.
 '''
+
+    # Reads json containing the testing data
     test_data = extract_json('documents/NARA_chosen.json')
     
+    # Extract model from given parameters
     model = sys.argv[1].lower()
 
-    # If document number is specified then transcribe only that document
+    # If document id or filename is specified then transcribe only that document
     if (len(sys.argv) > 2):
+        # Extract filename or id from given parameters
         id = sys.argv[2]
         data = test_data.get('digitalObjects', [])
+        # Iterates through testing data to find desired object
         for d in data:
+            # Extracts filename from object url
             file = d.get('objectUrl').rsplit('/', 1)[-1].split('.')[0]
             if (file == id or d.get('objectId') == id):
+                # Begins transcription
                 transcribe_docs(d, prompt, gpt, claude, model)
                 return
+        # If no document with matching filename or id is found than return an error
         print("Document not found")
         return
     

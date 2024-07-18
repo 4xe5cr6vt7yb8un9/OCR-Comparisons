@@ -33,10 +33,13 @@ def process_transcription_gpt(data, prompt, client):
     print(f"Transcribing image: {url}")
 
     response = transcribe_image(url, prompt, client)
+
+    # Extracts the transcription and token usage from the response json
     extracted_text = response.choices[0].message.content
     tokens = response.usage.total_tokens
     manual_text = data.get("extractedText")
 
+    # Logs transcript information
     log_transcription(extracted_text, manual_text, response.model, tokens, prompt, data)
 
     print("Finished transcription\n")

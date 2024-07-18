@@ -4,7 +4,9 @@ from os.path import exists
 
 
 def extract_digital_objects(naID):
+    # URL for object metadata
     url = f"https://catalog.archives.gov/proxy/records/search?naId_is={naID}&allowLegacyOrgNames=true&includeExtractedText=true"
+    # URL for object transcript
     url2 = f"https://catalog.archives.gov/proxy/contributions/targetNaId/{naID}"
 
     headers = {
@@ -46,13 +48,16 @@ def extract_digital_objects(naID):
             }
             extracted_objects.append(extracted_obj)
 
+        # Specifies where to save output
         output_file = f"documents/NARA_files.json"
             
+        # If the output file exists then append the data else create a new file
         if not exists(output_file):
             with open(output_file, 'w', encoding='utf-8') as file:
                 json.dump({"digitalObjects": extracted_objects}, file, indent = 4, ensure_ascii=False)
         else:
             with open(output_file, 'r+', encoding='utf-8') as file:
+                # Appends data to the output file
                 file_data = json.load(file)
                 for obj in extracted_objects:
                     file_data["digitalObjects"].append(obj)

@@ -10,6 +10,7 @@ with open('logs/transcripts.json', 'r', encoding='utf-8') as file:
     data2 = json.load(file)
 
 
+# Lists all testing data
 @app.route('/')
 def index():
     # Extract transcripts from the JSON data
@@ -17,12 +18,14 @@ def index():
     print(data.get('digitalObjects')[0])
     return render_template('index.html', transcripts=transcripts)
 
+# Lists all transcribed documents
 @app.route('/transcript')
 def transcripts():
     # Extract transcripts from the JSON data
     transcripts = data2.get('transcripts')
     return render_template('transcript.html', transcripts=transcripts)
 
+# Lists specific transcribed document
 @app.route('/transcript/<id>')
 def transcript(id):
     # Extract transcripts from the JSON data
@@ -30,7 +33,7 @@ def transcript(id):
     valid = []
 
     for transcript in transcripts:
-        if transcript.get('filename') == id:
+        if transcript.get('filename') == id or transcript.get('objectId') == id:
             valid.append(transcript)
     
     return render_template('transcript.html', transcripts=valid)

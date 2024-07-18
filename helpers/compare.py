@@ -105,7 +105,7 @@ def greatest_correct(s1, s2):
 
     return greatest
         
-
+# Supporting function for greatest_correct
 def great2(a_list, b_list):
     b = " ".join(i for i in b_list)
     matche = ""

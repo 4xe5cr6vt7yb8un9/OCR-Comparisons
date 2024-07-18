@@ -6,6 +6,7 @@ from helpers.utils import log_transcription
 
 # Handles the api request for claude
 def transcribe_image(url, prompt, client):
+    # Encodes the image into base64 format
     image1_media_type = "image/jpeg"
     image1_data = base64.b64encode(httpx.get(url).content).decode("utf-8")
 
@@ -41,10 +42,14 @@ def process_transcription_claude(data, prompt, client):
     print(f"Transcribing image: {url}")
 
     response = transcribe_image(url, prompt, client)
+
+    # Extracts the transcription and token usage from the response json
     extracted_text = response.content[0].text
     tokens = response.usage.output_tokens
+    tokens += response.usage.input_tokens
     manual_text = data.get("extractedText")
 
+    # Logs transcript information
     log_transcription(extracted_text, manual_text, response.model, tokens, prompt, data)
 
     print("Finished transcription\n")
