@@ -61,56 +61,6 @@ Once you have completed the transcription, provide your output within <transcrip
 your transcription immediately without any preamble or explanation. Ensure that your transcription accurately 
 reflects the content and structure of the original document.
 '''
-
-    prompt3 = '''
-Prompt:
-You will be given an image that contains a document. Your task is to transcribe the contents of this
-document as accurately as possible.
-
-To complete this task, follow these steps:
-
-1. Carefully examine the entire image, paying attention to all visible text, including headers,
-footers, and any marginalia.
-
-2. Transcribe the text you see in the image, maintaining the original formatting as much as
-possible. This includes preserving paragraphs, line breaks, and any special formatting (e.g., bold,
-italics, underline) if you can discern it.
-
-3. If there are any tables, diagrams, or other non-text elements, describe them briefly in [square
-brackets].
-
-4. If any part of the text is unclear, illegible, or cut off, indicate this by writing [unclear] or
-[cut off] in place of the text. If you can make an educated guess about what the text might say,
-include your best guess in square brackets with a question mark, like this: [unclear word?]. If you
-have multiple guess include your guesses inside the brackets, like this: [unclear word1?, unclear word2?]".
-
-5. If there are any handwritten notes or annotations, transcribe these as well, indicating that they
-are handwritten by placing them in {curly braces}.
-
-6. If the document is in a language other than English, transcribe it in its original language and
-provide an English translation in (parentheses) after each sentence or paragraph.
-
-7. If there are any logos, letterheads, or other identifying marks, describe these briefly at the
-beginning of your transcription in [square brackets].
-
-Format your transcription like this:
-
-<transcription>
-[Description of any logos or letterheads]
-
-(Your transcription goes here, following the guidelines above)
-</transcription>
-
-After completing the transcription, provide a brief and succinct assessment of your confidence in the accuracy of
-your transcription, noting any areas of particular uncertainty. Use this format:
-
-<confidence_assessment>
-(Your assessment goes here)
-</confidence_assessment>
-
-Remember, the goal is to provide as accurate a transcription as possible while clearly indicating
-any uncertainties or guesses.
-'''
     test_data = extract_json('documents/NARA_chosen.json')
     
     model = sys.argv[1].lower()
@@ -122,7 +72,7 @@ any uncertainties or guesses.
         for d in data:
             file = d.get('objectUrl').rsplit('/', 1)[-1].split('.')[0]
             if (file == id or d.get('objectId') == id):
-                transcribe_docs(d, prompt3, gpt, claude, model)
+                transcribe_docs(d, prompt, gpt, claude, model)
                 return
         print("Document not found")
         return
