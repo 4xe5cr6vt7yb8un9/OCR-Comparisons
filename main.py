@@ -64,7 +64,7 @@ reflects the content and structure of the original document.
 '''
 
     # Reads json containing the testing data
-    test_data = extract_json('documents/NARA_chosen.json')
+    test_data = extract_json('documents/dataset.json')
     
     # Extract model from given parameters
     model = sys.argv[1].lower()
