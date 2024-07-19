@@ -1,5 +1,6 @@
 import requests
 import json
+import sys
 from os.path import exists
 
 
@@ -68,8 +69,11 @@ def extract_digital_objects(naID):
         return json.dumps({"error": f"Request failed with status code: {response.status_code}"})
 
 if __name__ == '__main__':
+    if (len(sys.argv) < 2):
+        print("Please enter the NAID")
+        sys.exit(1)
     # Pass in the NAID
-    id = input("Enter the NAID: ")
-    ext = extract_digital_objects(naID=54953855)
+    id = sys.argv[1]
+    ext = extract_digital_objects(naID=id)
 
     
