@@ -1368,6 +1368,666 @@
                 "levenshtein_distance": "1036",
                 "greatest_matching_words": "6"
             }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159553_00826",
+            "filename": "4159553_00826",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/98/9115/54911598/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1315/images/4159553_00826.jpg",
+            "original_text": "I Darius Branch, of Castleton in the County of Rutland, and State of Vermont, testify and say, that I was living with my Father in the south east part of Bennington in the fall of the year 1782, near the residence of Capt. Jonathan Scott, and was present at his house in the early part of September, (as I think,) and saw Samuel Holmes and Sallena Scott united in marriage by Moses Robinson, Esq. I cannot recollect the precise day of the month, but distinctly remember that there was a party of tories discovered going through a pasture in the easterly part of Bennington, which caused the inhabitants to suspect that all was not right; the alarm was immediately given to my Father and others, and a Company of men raised who went in pursuit, and after pursuing them about eight miles, captured them on the Green Mountain, I think twelve in number, with a Capt. Blakeslee and a negro man whom the tories had taken and were carrying off or leading off to Canada; I was too young to be one of the pursuers, being now in my twenty eight year, but am confident that Samuel Holmes was one of the party; I was present at the house of Gen. Samuel Safford and saw the Tories when they were brought in by our Troops; I was intimately acquaint-",
+            "extracted_text": "l Darins Branch, of bastleton in the County of Rutland, and State of Vernion, testify and pay, that I was living with my Father in the south east part of Bennington in the fall of the year 1782, near the residence of bapt. Ionathan Scott, and was present at his house in the early part of Sep tember, lad I think and saw Samuel Holmis and Sallena Scott united in marriage by Moses Robinson, Psg. I cannot recollect the precive day of the mouth, but distinctly memember that there was a party of laries discovered going through a flasture in the east early part of Bunnington, which caused the inhabitants to suspect that all was not right; - the alarm was immediately given to my Father and others, and a Company of men raised who went in pursuit, and fun suing them about eight miles, capture ed them on the Green Mountain, I think twelve in number, with a Capt. Blakeslee and a negro man whom the tories had taken and were carrying 044 or leading off to Canada; I was too young to be one of the pursuers, beather now fident that Samuel Holmes was in my seventy ighthy car but am con one of the party; was present at the house of Gen Samuel Safford and saw the Tories when they were brought in by our Troops; I was intimate by ac quant",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1932,
+                "height": 2973,
+                "aspect_ratio": "644:991"
+            },
+            "validation": {
+                "word_distance": "0.2363",
+                "cos_similarity": "0.7306",
+                "levenshtein_distance": "106",
+                "greatest_matching_words": "32"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159553_00194",
+            "filename": "4159553_00194",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/75/9114/54911475/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1315/images/4159553_00194.jpg",
+            "original_text": "No 1\nState of New York\nGenesee County:\nOn this seventeenth day of June in the year 1842, personally appeared before the Court of Common Pleas of the said county of Genesee Betsey Holmes a resident of the town of Attica in the county of Wyoming and State of New York aged eighty two years, who being first duly sworn according to law on her oath make the following declaration in order to obtain the benefit of the provision made by the Act of Congress passed July 4, 1836.\nThat she is the widow of Moses Holmes, who was an assistant commissary in the Revolutionary war and served during the war for which he enlisted, but the particulars of his service she cannot particularly state and she refers to his Pension Declaration under the Act of the 7th June 1832 and the papers accompanying the same for proof of his services.\nShe further states that her late husband , Moses Holmes, in a recent application for an increase of pension has set forth his services only for the term of four years, as he had been informed and believed that two years service only was necessary to be set forth in order to secure an increase of his pension, when in truth this declarant believes and knows that he served for a longer period and as she believes for and during the war.\nShe further declares that she was married to the said Moses Holmes on the first day of June in the year one thousand and seven hundred and eighty, that her husband the aforesaid Moses Holmes died on the twenty fourth day of April last part and that she has remained a widow ever since that period, as will more fully appear by reference to the",
+            "extracted_text": "WI State of New Yah L Generic bounty on this twentrenth day of Sime lu the you 1842, personally appeared before the bout of Common Pleas of the said County of receive Betscy Holmes a resident of the torn of attica in the county of Hyoming and State of New Yah ay al Eighty two years, who bring first duly aware accounting to law doth, in her with make the following declaration midd to obtain the benefit of the printing made by the Act of Congress passed July 4. 1836 that the is the in tow of Moses Holmes, who was an assistant Commissing us the Revolutionary worr and send during the war for which he exlicted; but the particular of his Dercice she cannot particularly Chate and the refer to his Clusion Declaration muda the act of the 7th. since 1832 and the paper accompanying the fame for proof of his dervices. the further states that her late has band. Mom Holmes, in a recent application for an nicrean of Penici has set futh his service, only for the term of four years as he had been informed and believed that two years derice only was nicessay to be det futh in order to Scene an increase of his pension, when mi truth this Declarant believe and know that he send for a longer period and as the believy for and during the was The further declares that the was married to the said More Holmes on the first day of some in the year are thore and Seven hundred and eighty. that her hu band the afriraid Mour Holmes died on the twenty fourth day of april last part and that Uu has a widow an suice that period as will mue fully appear by reference to the",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1936,
+                "height": 2969,
+                "aspect_ratio": "1936:2969"
+            },
+            "validation": {
+                "word_distance": "0.4259",
+                "cos_similarity": "0.5770",
+                "levenshtein_distance": "211",
+                "greatest_matching_words": "17"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159488_00392",
+            "filename": "4159488_00392",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/57/8923/54892357/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1295/images/4159488_00392.jpg",
+            "original_text": "WIDOW, &c.\nFile No. 10476\nHannah Burns\nFormerly wife of\nJames Hodge\nPrvt Rev. War\nAct: Feby 3rd 1853\nIndex: -- Vol. a, Page 102\n[Arrangement of 1870.]",
+            "extracted_text": "Ray WIDOW, &c. File No. 10476 Hannah Burns formuly Wid g Jumes Ho Hodge Pint Pen. War Act: Fely 3d 1835 Index:-Vol. a , Page 102 [Arrangement of 1870.]",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 2000,
+                "height": 2692,
+                "aspect_ratio": "500:673"
+            },
+            "validation": {
+                "word_distance": "0.5635",
+                "cos_similarity": "0.6566",
+                "levenshtein_distance": "36",
+                "greatest_matching_words": "5"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159591_00153",
+            "filename": "4159591_00153",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/67/9395/54939567/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1345/images/4159591_00153.jpg",
+            "original_text": "Commonwealth of Massachusetts.\nCounty of Worcester, ss.\nON this sixth day of September in the year of our Lord, eighteen hundred and thirty two personally appeared in open Court, before Hon. Nathl Paine, Judge of that Court of Probate now sitting Jonathan Howe, a resident of Paxton, in the County of Worcester, and Commonwealth of Massachusetts, aged seventy years, who being first duly sworn according to law, doth on his oath make the following declaration, in order to obtain the benefit of the act of Congress, passed June 7th, 1832.\nTHAT he entered the service of the United States under the following named officers and served as herein stated.\nThat he was born 30 Sept. 1761, in that part of Rutland, now Paxton, where he has resided ever since.\nThat in the autumn of 1777, his father, Paul Howe, now deceased, enlisted for seven months in this (cause) of the Revolution, & went to Springfield, Mass. at the expiration of one month. After he had been transferred to Brookfield, Mass. he, the abovenamed Jonathan Howe, at his father's request, on account of his ill health, took his place as his substitute at said Brookfield, and there performed a term of service of six months, in (defense) of (the) military (stores) deposited at that place. The only duty performed was to stand sentry, which he faithfully performed for the above stated term, at the expiration of which time he was honorably dismissed. The officers who had command of the troops stationed at said Brookfield during that term, were Lieut. Peter Davis of Rutland, and Lieut. Freeman, of Sturbridge. Tilly Chaffin, now of Holden, was with him in the same service during (the) said term; Levi Hathaway, of North Brookfield, was with him a part of the time; and his (brother) Jonah Howe was well acquainted with (the) fact of his service at the time it was performed.\nJon. a Howe\nHe hereby relinquishes every claim whatever to a pension or annuity except the present, and declares that his name is not on the pension roll of the agency of any state.\nSworn to and subscribed the day and year aforesaid.\nJon. a Howe\nBefore Nathl. Paine Judge of Probate for the County of Worcester",
+            "extracted_text": "DECLARATION, in order to secure the benefit of the Act of Congress, passed June 7, 1832. COMMONWEALTH OF MASSAOHUSETTS. COUNTY OF WORCESTER, ss. ON this with day of September in the year of our Lord, eighteen hundred and thirty two personally Count 4 Probate now sitting Jonathan House, a resident of Paxton! appeared in open Court, before Hon rathe Paine Gerag ofth in the County of Wonuster, and Commonwealth of Massachusetts, aged sevenly years, who being first duly sworn according to law, doth on his oath make the following declaration, in order to obtain the benefit of the act of Congress, passed June 7th, 1832. THAT he entered the service of the United States under the following named officers and served as herein stated. that he was born 30 Sept. 1761, in that part of Rullan now Parton, when he has sended ever time That in the autumn of 1777 his father, Paul Howe, now deceased, enlisted for never months in the any of It Revolution, twent to springfield, Mass. at th ex- hinstin of one month, yes he had been transported Brookfield, Mall. he, it aboverament Howe, at his father's request, a account of his le health, took his place as his substitute at said Pnockfield, and there performed military a term of service of in months, in deparce of it 1 Hover adonted at that place The only duty performed was to Hand centry, which L failt fully performed for th above ttated term at th cx- hinatin of which time he was honorably disminis The officers who had cornerend of it troops nationed at mid Bookfield during that term, wen Lient Petn Davis of Rutland and Lient. From an, of Husbridge Filly chaffin, now of Holden, was with him - it have termin during it said term Levi Hattaway of Not Brook field, was with him a have of A time and his holt tonal House was will argue winter with It fact of his service ut th time it was performed for a House He hereby relinquishes every claim whatever to a pension or annuity except the present, and declares that his name is not on the pension roll of the agency of any state. Sworn to and subscribed the day and year aforesaid. Meme Nath Dame Judge Iona Home of Probable the the Count, o wereelex",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 2044,
+                "height": 3261,
+                "aspect_ratio": "2044:3261"
+            },
+            "validation": {
+                "word_distance": "0.3882",
+                "cos_similarity": "0.6641",
+                "levenshtein_distance": "499",
+                "greatest_matching_words": "32"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159590_00359",
+            "filename": "4159590_00359",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/17/9386/54938617/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1344/images/4159590_00359.jpg",
+            "original_text": "28 Billingham Street\nSomerville, Mass.\nMay 22, 1935\nRe: Identity of Daniel Howe (How) of Tyringham,\nMassachusetts, Revolutionary War Soldier.\nBureau of Pensions,\nGentlemen:\nIt is desired to learn the name or names of one or both of the parents of this Daniel Howe of Tyringham, Mass.\nDid this Daniel Howe or his wife receive a pension.\nHis service record as give in \"Massachusetts Soldiers and Sailors in the War of the Revolution,\" Vol. VIII, p. 329, is as follows:\n\"How. Daniel, Tyringham (also given Arundel), Order on Maj. Barber, payable to Lieut. John Chadwick: also, Private, Joseph Strebben's Co., Col. Jonathan Brewer's regt; muster Roll Aug.1 1775 enlisted May 12 1775; service, 81 days; also, Company return (probably Oct., 1775); also, order of bounty cost or its equivalent in money dated Prospect Hill, Oct. 26 1775; also, return of men raised for Continental service probably from Capt. Harick's (Herrick's) co; residence, Tyringham; engaged for town of Tyringham; joined Capt. Chadwick's co., Col. Brewer's regt.; term, 3 years; also, list of men mustered between Jan. 20 1777 and June 1, 1778 by Trueman Wheeler, Muster Master for Berkshire Co.; Capt. Stone's co.; also Sergeant, Capt. Mean's co.; Col. Ebeneser Sprout's regt.; Continental Army pay accounts for service from Jan. 1, 1777, to Sept. 14, 1779; reported discharged Sept. 14 1779; also, Capt. John Chadwick's co., Col. Brewer's regt.; returns dated Jan. 22 1778; residence, Arundel; enlisted for town of Tyringham, mustered by Muster Master Wheeler; reported sick at Tyringham.\"\nIt is surmised, but no proof has been found, that this Daniel Howe was the son of Daniel and Ann (Bronson) Howe, born 4 Oct. 1741 at Waterbury, Conn. and that his wife's name was Damaris (Dutton) Howe.\nDoes his pension or other record give any of these data.\nRespectfully\n[signature of J. Albert Holmes]\nJ. Albert Holmes",
+            "extracted_text": "28 Billingham Street, Somerville, Mass. May 22, 1935. Re: Identity of Daniel Howe (How) of Tyringham, Massachusetts, Revolutionary War Soldier. 12 during Bureau of Pensions, 2 Washington, D. C. Gentlemen: It is desired to learn the name or names of one or both of the parents of this Daniel Howe of Tyringham, Mass. Did this Daniel Howe or his wife receive a pension. His service record as given in \"Massachusetts Soldiers and Sailors in the War of the Revolution,\" Vol. VIII, p. 329, is as follows: \"How. Daniel, Tyringham (also given Arundel). Order on Maj. Barber, payable to Lieut. John Chadwick; also, Private, Joseph Stebben's CO., Col. Jonathan Brewer's regt; muster roll Aug. 1, 1775 enlisted May 12 1775; service, 81 days; also, Company return (probably Oct., 1775); also, order of bounty coat or its equivalent in money dated Prospect Hill, Oct. 26 1775; also, return of men raised for Continental service probably from Capt. Hariok's (Herrick's) oo; residence, Tyringham; engaged for town of Tyringham; joined Capt. Chadwick's co., Col. Brewer's regt.; term, 3 years; also, list of men mustered between Jan. 20 1777 and June 1, 1778 by Trueman Wheeler, Muster Master for Berkshire Co.; Capt. Stone's co.; also Sergeant, Capt. Mean's co.; Col. Ebenezer Sprout's regt.; Continental Army pay accounts for service from Jan. 1, 1777, to Sept. 14, 1779; reported discharged Sept. 14, 1779; also, Capt. John Chadwick's co., Col. Brewer's regt.; returns dated Jan. 22 1778; residence, Arundel; enlisted for town of Tyringham; mustered by Muster Master Wheeler; reported sick at Tyringham.\" It is surmised, but no proof has been found, that this Daniel Howe was the son of Daniel and Ann (Bronson) Howe, born 4 Oct. 1741 at Waterbury, Conn. and that his wife's name was Damaris (Dutton) Howe. Does his pension or other record give any of these data. Respectfully J. Albert Holmes.",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 2076,
+                "height": 2723,
+                "aspect_ratio": "2076:2723"
+            },
+            "validation": {
+                "word_distance": "0.0583",
+                "cos_similarity": "0.9308",
+                "levenshtein_distance": "90",
+                "greatest_matching_words": "47"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159589_00405",
+            "filename": "4159589_00405",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/96/9374/54937496/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1343/images/4159589_00405.jpg",
+            "original_text": "New certificate issued 17. April\n1840 M.P. Tyler Esquire Blenheim, N.Y.\nLetter to E. Holliday and Bathsheba\n10. 1840\nDead\nPaid at the heanry under the order of the 6th army 1838\ndrawn 24 May 1838 to 21 July\n1840, the day of\nholidied 26 1840\nletter to E. Holiday 22 July 1841\nAlimony 3182\nBathsheba Howard\nWidow of Theophiles Howard who was\na pensioner under of June 7, 1832\nwho died on the 23. May 1838\nof Sehohanie Co. in the State of New York\nwho was a Private in the Cantle navy. Commander\nby captain Pontes of the next. Commander\nby Col. Sergeant in the May.\nline got 12 months and 18 days\nFacilitated on the Roll of Albany\nthe rate of 42 dollars\nto commence on the day of March, 1834.\n24. May 1838\nCertificate of pension issued the 18 day of January\n1840 and sent to N.O. Tyler\nBlenheim. N.Y.\nattained to the 4th of July. 38 53.70\nSemi-annunal allowance ending 4. may 40 21.00\n$74.78\nRevolutionary claim,\nAct July 4, 1836\nRecorded by D. Brown\nBook A. Vol 2. Clerk\nPage 209",
+            "extracted_text": "New certificate ifrued 17. April 1840UN.P. Tylerity. Blenheim N.Y. Albany 3182 Botter to E. Holliday of of (Ice dibor Bathsheba Howard 10. Dear 1840 widow of Theophilus Howard who was Dead a Pensioner bunder act offuncy. 1832 who died on the 23. May 1838 Paid at the Treasury under of Schokario Co. in the State of Nyak who Private the act of the 6th afric 1838 from 254 may 1838 to 2/h by Captain ' of the legh commande was a Notes instine company commande Porter Today by Col. Sugeant in the Maji Molified 26 Dear 1840 18400 the day of aft line for 12 months y 18 days Setter to E. Hollicany 22 Jerry 18ht. Inscribed on the Roll of c Albany the rate of 42 Dollars Cents per to commence on the 4th day of March, 1334. 24. May, 1838 Certificate of Pension ispued the 18. day of January 1840 and sent to P.Tyler Blenheim N.Y. Arrears to the 4th of Sep.38 53.78 Semi-annual allowance ending 4 Maine 21.00 $ 74.78 Revolutionary Claim, Act July 4, 1836 Section the 3. Recorded by D. Brown Book A. Vol. 2. Clerk, Page 20%",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 2016,
+                "height": 2687,
+                "aspect_ratio": "2016:2687"
+            },
+            "validation": {
+                "word_distance": "0.4611",
+                "cos_similarity": "0.5591",
+                "levenshtein_distance": "508",
+                "greatest_matching_words": "6"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159588_00705",
+            "filename": "4159588_00705",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/30/9370/54937030/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1342/images/4159588_00705.jpg",
+            "original_text": "I Jonathan Perkins of North Bridgewater in the County of Plymouth + State of Massachusetts, a soldier of the Revolution, and a pensioner of the United States, under the Act of June 7th, 1832. I am well acquainted with Oliver Howard of said North Bridgewater; that I have known him from our boyhood; that I was attached to a Company of minute men under Captain Josiah Hayden at the time of the alarm in April 1775 when the British marched to Lexington; I marched towards Poxbury with said Company, of which the said Oliver Howard was one; at Dorchester we were ordered to Marchfield, when we were dismissed, + returned to Bridgewater, having been absent three days; Oliver Howard afore said was with me during said three days.\nIn 1776 or 1777 the British landed at [illegible] a sea shore in Captain David Pachand's Company - was gone two days, when we were dismissed + returned home - Oliver Howard aforesaid, was with us during the two days.\nIn 1776, I enlisted into Captain Nathan Alolem's Company of Massachusetts militia in a Regiment commanded by Colonels Hall and Johnson, for three months, and marched to Bristol in Rhode Island, and served the full term of three months. The aforesaid Oliver Howard was with me in the same Company during the three months, at the end of which time we were dismissed without a written discharge.\nJonathan Perkins\nCommonwealth of Massachusetts\nPlymouth County ls\nApril 3rd 1834. Then personally appeared Jonathan Perkins, and subscribed the foregoing [illegible] and made oath to the truth of the same - and I further certify\nthat said Jonathan Perkins is a man of truth and veracity.\nBefore me, Jesse Perkins, Justice of Peace",
+            "extracted_text": "I onathan Perhins of North Bridgewater in the County of Plymouth & State of Mafrachusetts, a soldier of the Revolution, and I being of the age of Seventy-five years, do tertify and say, that a pensioner of the United States, under the act ofference 71832 um well dequainted with Oliver Howard If said North Bridgewater; that I have known him from our boyhood that I was attached to a Company of minute men under Captain Josiah Hayden at the time of the alarm in April 1775 when the British marched to Serington I marched towards Roybury with said Company, of which the said Oliver Howard was one: at Dorchester we were ordered to Marshfield, where we were dismissed, & returned to Bridgewater, having been absent there days; Oliver Howard aforeaid was with me during said three days In 1776 or 1777 the British landed at Braintee or Meymouth, when an alarm was given: I then marched to the sea show in Capton David Pachard's Company - was gone two days, when we were dismissed & returned home- Oliver Howard aforesaid, was with us during the two days. In 1776, Tenlisted into Capt Nathan Alolen; Company of mapsachusetts militia in a Regiment commanded by Colo= nels Hall & Johnson, for three months & marched to Bristol in Rhode Island, & served the full term of three months. The aforesaide Oliver Howard was with me in the same Company during the three months at the end of which time we were dismissed without a written discharge Jons Permins Commonwealth of Malsachusetts Jonathan Perhins, 3 subscribed the foregoing affidavit, and made Plymouth County fs. April 3. 1834. Then personally appeared oath to the truth of the same and I further certify that said and Perhim is a man of truth veracity, Before me fefse Perkins justice of Peace",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 2004,
+                "height": 2717,
+                "aspect_ratio": "2004:2717"
+            },
+            "validation": {
+                "word_distance": "0.2532",
+                "cos_similarity": "0.7287",
+                "levenshtein_distance": "340",
+                "greatest_matching_words": "28"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159578_00892",
+            "filename": "4159578_00892",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/39/9317/54931739/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1336/images/4159578_00892.jpg",
+            "original_text": "In the matter of the application of Mrs. Mary House widow of John House for certain arrears of pension\nState of New York\nOneida County:\nMary House being duly sworn says that the family record of John House hereunto annexed is a true and correct record of the marriage of said House to this deponent & the births of their children as kept by said House, and taken from the old family bible of said John & Mary House in the possession of the deponent that said record is genuine is in the hand writing of said John House deceased.\nWitness to signature\nR. McIntosh\nMary House x her mark\nSworn to and subscribed before on this 15th day of March A.D. 1853 and I hereby certify that I believe the annexed record is the true and genuine record of the marriage of John & Mary House & the births of their children.\nGiven under my hand and seal of the [illegible] Court this 15th day of March 1853.\nRalph McIntosh\nSpecial Surrogate",
+            "extracted_text": "In the matter of the application of mis Mary Heaven under of John House for certain because of punish State of how Jack Ouida County As. Mary Hause being duly swasn says that the family record of John Hause humants anney- 2d is a true leud cource record of the municise of secial House li this debaunt, of the buth of thin childhen, as high by said Hause, and taken from the old family bible of said John 9 many Hause in the papepian of thinde. part that said record is funion. in in the hand usi, ling of daid John House deceased Withing li signature May muk The House X Severu to and Au breeked before mm this 15\" day of March A. $ 185-8- And I heechy cutiby that / believe the lumer ed record is the time and grumine record of the marriage of John of may Haure & the with of their children Given under my hand and seal of the Suning ater Camel this 15 day of Mark1853 Testim Butosi Pecant. Misrogath",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1932,
+                "height": 2807,
+                "aspect_ratio": "276:401"
+            },
+            "validation": {
+                "word_distance": "0.5901",
+                "cos_similarity": "0.3973",
+                "levenshtein_distance": "236",
+                "greatest_matching_words": "10"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159578_00897",
+            "filename": "4159578_00897",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/39/9317/54931739/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1336/images/4159578_00897.jpg",
+            "original_text": "Declaration\nIn order to obtain the benefits of the Acts of Congress 15th May 1828 7th July 1838\nState of New York\nOneida County:\nOn this 21st day of October in the year of our Lord One thousand eight hundred and fifty two, personally appeared before the Honorable Ralph McIntosh Special Surrogate and Justice of a Court of Record in and for the County of Oneida and State of New York aforesaid Mary House aged eighty 80 years, a resident of Oneida in the County of Oneida, who being duly sworn according to law, doth upon her oath makes the following declaration in order to obtain she benefits of the provisions made by the Act of Congress passed 15th May 1828 entitled Pension granted to all the officers who served to the end of the Revolutionary War in the Continental Army also the Act of Congress passed July 7th 1838 entitled an Act granting half pay and pensions to certain widow and the other acts of Congress extending said act that she is the widow of John House deceased who was a private in the Revolutionary War in Company Commanded first by Captain Andrew Frink and afterwords and near the later part of said war by Captain Sytez in the first Military Regiment of the original Five Regiments of the New York troops in the Continental Line Commanded by Colonel Goose Van Schaicks, that he enlisted some time in about the month of January or February in the year of our lord seventeen",
+            "extracted_text": "Declaration; bu order 15 mg/8289 to obtain the benefits of the autoof Congrep of their 7th Jelly 1838. State of Newbask Oreida County p: in the year of Batr ford Ou this One 21 th day thousand of October right hundred and fifty too personally appeared before the Balph Medicitosh spe cial Surregate and Questice of a Court of Record, in for the County of Bhiida and aged Hand eighteffe a resident of Anide state. of New bask aforesaid (so) Isaeg House in the County of Oncider, who being duly sworso according to law, doth upon her oath make the benefits of the pravis ions made by the aof the following declar ation, in arder to obtain geanted to all the officers who seeted to the of Congret paped 15 may 1828entilled Pension and of the Recolestinating was in the continence tal army also the act of Congref paped pay and pension to Certain widows\" the only 7. 1888 entitted an ach \"granting half other a ol's of Cangrep extending said ad. That she is the loid ow of John House deceard soko was a private in the Revolutionary war- in a company commanded first by Captain Andrew Frink, and afterwords and near the latter part of said. was by Captain S.g. teg in the first Military Regiment of the might Froo Requirement the New york Grooks in He Continental Line. Commanded by Colonel Goade raw Schaicks thiah he enlisted some time in be about the mouth of of Currary as February in the gear of Our Lard Seventeen",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1928,
+                "height": 3021,
+                "aspect_ratio": "1928:3021"
+            },
+            "validation": {
+                "word_distance": "0.5139",
+                "cos_similarity": "0.4673",
+                "levenshtein_distance": "498",
+                "greatest_matching_words": "10"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "4159578_00581",
+            "filename": "4159578_00581",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/9315/54931577/content/23_b/M804-RevolutionaryWarPensionAppFiles_b/M804_1336/images/4159578_00581.jpg",
+            "original_text": "State of New York\nMontgomery\nMargaret Timmerman being duly sworn deposth and saith that she is aged sixty seven years that she was acquainted with Henry House and Nancy House at the time they were married that she was present at the wedding and that she was also married at the same time at my fathers house in >>> in said county ceremony on the fifteenth day of February 1789 and that she knows that the said Henry House and Nancy his wife lives together for some time in the same town where she this deponent did in said town of >>> further south >>>\nSworn and >>> before me this 4th day of September 1838\nJohn Haven, Justice of the Peace\nMargaret Timmerman X her mark\nI John Haven a Justice of the Peace of the town of >>> in the county of Montgomery before whom the >>> of >>> was taken to hereby certify that I am well acquainted with Margaret Timmerman and do know her to be a person of good character for truth and veracity and her statement entitled to credit and that she was not taught to write and did mark her mark all before me September 4th, 1838.\nJohn Hawn, Justice\nState of New York\nMontgomery County\nClerks Office\nI certify that John W. Hawn esq. whole name is subscribed to the Justice of the forgoing affidavit and proceedings was on the day of the date >>> a Justice of the Peace >>> and for the County of Montgomery duly elected and >>> and that the signature to the same is his genuine signature.",
+            "extracted_text": "Montgomery you being duly swan State forew York depressith. Y saith that she is aged listy Selvenspears that the was the House and Nancy House at time they well marria that she was Present at the Wedding and that she was also Marriad at the same time and and at father House in Mindum in vaidCounty Donning Peak performed the Marriage the Commony on the Hefternth day of February 1789 and that with where Lives together for same time in the same Form knows that the said Henry Houn and Nancy his fruitten darth of She this defonent did in said Town y Minda his This Sworm 4\" V Lubrature before me Margarit x Tunnumen day of 1838 mark John 10 Hawn fustin gi Peace I John WHATE a future of the Pean of the Four of Mindum in the County of Montherney before whom that am will acquanted with Mayant Timmurman the above I was when de hirtly artity and do know him to be u person of good Character for brutt and viracity ams her Statement Enalts to Credit and that she was not taught to write ans dia make her mark all lafer me Sept 4\" 1898 State York John Insticu Moutz, method bounty office) for I cutify that John Esgr whore home is Subscribed to the just dc of the fongoing appedamts was ou the day of date thuros a Justice of the Place corfer the Carriety of Moutgoming duly Elected and Penning signature audi that? the signature to the same is he's Testimone whom chause hen wrote set in the your 18380 - My have and appired My official leads this Eleventh day of September blecks /",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1932,
+                "height": 3140,
+                "aspect_ratio": "483:785"
+            },
+            "validation": {
+                "word_distance": "0.5830",
+                "cos_similarity": "0.3320",
+                "levenshtein_distance": "758",
+                "greatest_matching_words": "8"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189443",
+            "filename": "4155858_00796",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00796.jpg",
+            "original_text": "We Willis Walker a clergyman residing in Union District and Major Thomas Young residing in the same do hereby certify that we are well acquainted with Mordecai Chandler who has subscribed and sworn to the foregoing declaration, that we believe him to be seventy years of age, that he is reputed and believed in the neighborhood where he resides to have been a soldier of the Revolution and we concur in that opinion.\nWillis Walker\nThomas Young\n\nJno B Oneall\nPres Judge\n\nAnd the said court does hereby declare its opinion after the investigation of the matter and after putting the interrogatories prescribed by the War Department, that the above named applicant was a Revolutionary soldier and served as he states— and the said court further certifies that it appears to it that Willis Walker who has subscribed the above certificate is a Clergyman residing in Union District and that Majr Thos Young who has subscribed the same is a credible person and his statements are entitled to credit.\nJno B. ONeall\nPres Judge\n\nI John Rogers, clerk of the Court of Common Pleas and Sessions, do hereby certify that the foregoing contains the original proceeding in the matter of the application of Mordecai Chandler for a pension.\nIn testimony whereof I have hereunto set my hand & seal of office this 15th day of October 183[?]\nJ. Rogers Clk\n\n",
+            "extracted_text": "the willis walker a clu -yyman nooding in amou De but and major that young nocaing in the same w fun by cutify Flooc we an well acquainted with mordical ohanater who has jule caled are a Swom to the forgoing Dc chal core Galier for to be severly year of ago, Mal he is repaid cina lutuma w (in lenghbourhood when he risidez to han been a dolaire of a Revolution and we can our w that pinrow doorn a ana Subscribe Willies walker Her day aux year cin International Mances young 10ml Judge and du Said Court dad recelly aidare its op minow aptu the ima ligulion of the maller, and after to utting the Inlaaga long to us cubed by the wan depart ment, thor the above warned applicant way a Revolu monay dolden ana Juna an he States an are can from Min Oic the it st bcan to it that willie wather who has Juhs culied the abon outifical is a Cler gyman needing in Union Dy but and door major who has Jubs culed the Jame is a eee with person and Sir stob ments an culella t cuait - 8 John Ragers cluh of the Caurt of Cammon Plas anx Sepious do Ain life ev of that the in poogoing can lain, the angmac pro ending chandler pac a Percedeou the matter of Oh apble catiow of mordi can I'c wheel show because set very hardilel of off : Huj 15' aay of aelohn 183 elk",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1992,
+                "height": 3018,
+                "aspect_ratio": "332:503"
+            },
+            "validation": {
+                "word_distance": "0.9381",
+                "cos_similarity": "0.1239",
+                "levenshtein_distance": "591",
+                "greatest_matching_words": "3"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189444",
+            "filename": "4155858_00797",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00797.jpg",
+            "original_text": "afterwards at the Battle at the IronWorks at Cedar Springs and then at the Battle of Musgrove— we then retreated to North Carolina where I joined my old Regiment under Col. Lysles and marched back to Newbury So Car.    when, on a scouting party, I was taken a prisoner, and carried to the jail at 96— where I lay untill [sic] the British went to Charleston, where I was taken and placed on board a Prison ship— where I remained about two months and was exchanged.— On my return I joined Col. Parris and performed a tour of duty in the lower country as a volunteer against the outlying and town.—  I then joined a volunteer company under Capt. Williams for six months and continued patrolling and scouting untill [sic] the final cessation of hostility and was finally discharged.  I have no documentary evidence of my services. [the following struck out with a line] and refer to Major Thos Young and Major Jos McJunkin to provide [illegible] [end of stricken words].  In answer to the interrogatory put by the court I answer 1 & 2.  I was born in [\"Culpepper County Virginia\" inserted] 15th May 1762  but have no record of my age.  3. I lived in Newbury Dist when called into service. and have lived [\"principally\" inserted] in South Carolina ever since the war. 2 & 5 See within. 6. I got one discharge in writing which is lost. 7. I refer to the Rev. Willis Walker and Major Thos Young to know my good character.—\nSworn to this day & year afsd.\nMordecai Chandler\n\nJ. N. Oneall Pres. Judge",
+            "extracted_text": "aphimonily at the Batli at the from worly n @udar - ana Am at the Buth oh musgrong - me them n be also to North Corolina whind bjoim? sup ola fleprunt anda Coc Lyscus and inaiched base a A.whomy which an e Jeanhing pasty, 1 wa tokun Champion projourn, ana carried to the lail ot 96- where k Cuy in we the 13n leph love to Chock can when 2 was Cohon and plued oa Gaved a Puson ship - when 2 pernamo about as man the ana was inchanged. - on my return Col Penais - una performed atour of anty, in the lower @acmb as - bohinter against the anth lyey and tong / 2 them joind a bolim law Compa my under capi Millions for I'm and @a celend Baholling and desal ing im all the heal ofaction of he, litily / and was finally do abound 2 have as to cunuton ere den e of and maji Too mo in plants promoung my Jusion and of to may that your handay In my and to the in way along p in wt customer a the county cand Varienia 2 app are 1x2 Eway hore, 15 may 62. but and have cever mean of my as 3 1 and in Authory Digit whom callo into funca and hon and an South every even Ima the w am 245.de within 6 gyot are dy choose in water se- moh is losh 7 2 arter w the Rend Willis wather swoon w from my good ana character major that raining w its your age. any E Mordeen, Chanelben prior and",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 2024,
+                "height": 3026,
+                "aspect_ratio": "1012:1513"
+            },
+            "validation": {
+                "word_distance": "1.0522",
+                "cos_similarity": "0.1362",
+                "levenshtein_distance": "762",
+                "greatest_matching_words": "3"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189445",
+            "filename": "4155858_00798",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00798.jpg",
+            "original_text": "State of South Carolina\nUnion District}     To wit\n\nOn this 4th day of October 1832 personally appeared in open court before the Judge of the Court of Common Pleas and Sessions, now sitting for districts aforesaid [\"Mordecai Chandler\" underlined], a resident of Union District, aged seventy years who being first duly sworn according to law doth on his oath make the following declaration, in order to obtain the benefits of the Act of Congress passed June 7 1832.  that he entered the service of the United States under the following named officers and served as herein stated [illegible, stricken out] I enlisted for the term of two years, in Newbury District, S. Car under Captain Dickson in the Regiment commanded by Col. Saml. Jack, of the State of Georgia, in October 1777 and marched to Petersburgh in Georgia.  Thence to Fort Wells on the Ogechee where we remained six or seven months from which place we marched to Augusta— and thence to East Florida and going as far as St. Marys River we returned to a place called hideaway meeting house, between [illegible] and Savannah.  When I was discharged by Col. Saml. Jack The Governor of Georgia having released",
+            "extracted_text": "Sinte of hard Carolina Anniver Dyland May To cuito foza prycually (ler oppcord tley 4000 day m of open Cocober Court before the dida of the Caust of Comman and depends levelo of etting for de Defful, afriraid, mordassi Chandler 2 of awar District, age Janicly gray year whio lervery fint dely I worn acciding to dari doth ave lui a oth make the followay Declaration an decis l allieu the humph open act of Canseef pased Line up 1832 thac h lie lund the diere w of can luatia Stole tim in lb following maa cc off day and Leur a ag hunin diab the due I liled for the Care of two years, w in hewbory Duluit dob under Caplain Dichian in the Regi mut Commanded by Col Jam Ia ok, of the Jah or arrsia, in ae Cohen! 1777- aire baaccho to Phy hugh an Deorgew jana w For wag an the afecha where w amand I'm or Linea mouth from which pla a loe mar old s acegy la auma theme to push una going, as far 4 It. maugh Read we w lumo to a place eulla mid way min ling house, between Sambry and Sumannah when Dwa air. chospa, by Col. Jaw La etc the dovenor op Leorsia human achard",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1984,
+                "height": 3008,
+                "aspect_ratio": "31:47"
+            },
+            "validation": {
+                "word_distance": "1.0533",
+                "cos_similarity": "0.1578",
+                "levenshtein_distance": "537",
+                "greatest_matching_words": "3"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189446",
+            "filename": "4155858_00799",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00799.jpg",
+            "original_text": "the remainder of my term of enlistment on account of my tour to Florida— Shortly after my return I joind [sic] the Company of Captain James Lyles in the Regiment commanded by Colonel John Lysles—  and marched to Augusta and [words crossed out]  turning down the River proceeded as far as N Brunswick— when we met the British army and retreated before them back to Augusta, and crossing the River took our Station at the Shoals above Augusta when we lay about three months until our time had expired, and I was regularly discharged— in 1779 & again joined Capt Lysles - in Col Lysles Regiment and marched to Bacon Bridge, on Ashly River—  and having made several excursions thro [sic] the county— we marched to a place called Quagnow Swamp then on to Stono, from whence we marched to the Battle at Stono, in which I was engaged, and after the Battle we returned to the Camp at the Swamp where we remained untill [sic] I was discharged.—  I then joined Capt Roebuck's Company in Col. John Thomas Regiment and moved to North Carolina when we joined Genl Sumpter, and [illegible] at Ramsam's a short time after Battle was over.  I then fell in with Clark and Shelby— and was shortly",
+            "extracted_text": "ba accaunt of any toar to Honbo- the mm ameten of my arm of Enelyhim shorth after rup return 21 and the @winpany of Daplain games by aid the Regiment carnmanded by Orlone John Lighly- aaa march Wangasa ana crafting the timing aawn the Rina prouded al for as MB can pruck when we met the sometigh army ana n thefore them back to augusta, and croping the Renom with am Ilotion at the Shool, a box curgus. la when we Cay about thin moully milita am have had expind, and Eway ngulorty dyshorged in 1779 L asain joma calot Lys ly - cu Col lysing Regimen and ma cook Brag, av ashly Revio - and having maac several cc emericans this the currenty eve invented to aplae call Juagnow I mamy nean s Stono from we man has to the Baah at Stoud, in which Eway casupo, and often the Ballh our returna to the Cand at the swang now am in ummanca in all 2 wording choicd 2 then joind Capt Rochwork Campany w col John Thomas Regenent and luoria to e forth Cacolina when companied Dwa Sample awa a noc at Time after Batte was over 2 them fell in with clash ana shiller and was shottly",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1984,
+                "height": 3017,
+                "aspect_ratio": "1984:3017"
+            },
+            "validation": {
+                "word_distance": "0.9883",
+                "cos_similarity": "0.1652",
+                "levenshtein_distance": "468",
+                "greatest_matching_words": "4"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189447",
+            "filename": "4155858_00800",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00800.jpg",
+            "original_text": "The State of South Carolina\n\nKnow all more by those present that I Samuel Phillips administrator of all all [sic] and singular the rights and credits goods and chattels which were of Mordecai Chandler late of Union District & State aforesaid deceased, a Revolutionary pensioner of the United States under act congress 7th June 1832 at the rate of eighty dollars per annum do make constitute and appoint Jas. A Black Esquire of Columbia South Carolina and State aforesaid my true and lawful attorney for me and in my name place and stead to prosecute against the United States my claim as administrator as aforesaid for the benefit of heirs at law of the said Mordecai Chandler deceased, (who are his now living children) to an increase of pension and arrears of pension up to the day of the death of the said Mordecai Chandler, to examine all papers on file in the pension office of the United States and to file such further evidence record or otherwise as shall already show the right of his said children to an increase of pension on the the yearly amount",
+            "extracted_text": "Nn know all more bykere presents that Samuel Phillip of all all and the sights assd credits Good and chatters which wash of morrican Chandler late offenion District Stuto aformaid decord a Ravolu thousang of the united States under act cougnes 7th Irn 1852 at the son F eighty dollars on ammemn do make couste each and appound Id. Bluch Degries of Columbia Douth Carolina and Mate aforesced my have and lawful alloning for am and in my name ploer and stead s procecute against Kn limited White my dain as 00 of onsait for the benefit of the hum at fees of the sand morricai Chursder discosed (pertra ass This now being children) to an in - crease of pressor and aman of Reneson up the day of the deathsoften and mindceai Chanden, & Examines all paper on file in The Recessor offin of Mr limits states and puoh further ovidinas second or otherwise as shall alearly show the right of his and Children to an inonce Resiston on the Bearly amount",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1836,
+                "height": 2805,
+                "aspect_ratio": "36:55"
+            },
+            "validation": {
+                "word_distance": "0.7240",
+                "cos_similarity": "0.3317",
+                "levenshtein_distance": "332",
+                "greatest_matching_words": "5"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189448",
+            "filename": "4155858_00801",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00801.jpg",
+            "original_text": "amount received under said law which was due to said deceased at the time of his death.  with power also an attorney, or attorneys under him for that purpose to make and substitute and do all lawful acts for effecting the pension, even by notifying and continuing all that my said attorney or his substitute shall lawfully do [illegible] by virtue thereof\n\nIn witness whereof I have hereunto set my hand and seal this 23rd day of May AD one thousand eight hundred & fifty seven\n\nSigned sealed and delivered} Samuel B Phillips\nin presence of                       }  \nJ M Gadberry                        }\nW W James                           }\n\nState of South Carolina\nUnion District\n\nBe it known that on the 23rd day of May AD one thousand eight hundred & fifty seven and in the 81st year of American Independence before me a magistrate in and for said District and State Duly commissioned and sworn came Samuel B Phillips administrator of the Estate",
+            "extracted_text": "amount news union said laws which was den at said discosed ather time of his death, with power alio am attorney oz attorney and him for that purposer a mota and substitute and 4000 all lawful acts for effectery the Dramises, Tundy satifying and can forming all new my sand alioney on his Substitute shall lawfully do from by know In witrup whomof I hose horevate set my hand and oual Ana 23rd day of may aD am eyest humbed fifty Deven ligued Dealed and delivery in presence of Samuel B Philiday State lemon 2 Distri ez B. In Known Not an the 2320 day of may as our thousand Eight hundred fifty Jern audien the of Amen ean Independinen before me a magistants in and for and District and state July can missioned and swom came Jamel B Phillips office Edale",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1884,
+                "height": 2796,
+                "aspect_ratio": "157:233"
+            },
+            "validation": {
+                "word_distance": "0.6220",
+                "cos_similarity": "0.3475",
+                "levenshtein_distance": "364",
+                "greatest_matching_words": "4"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189450",
+            "filename": "4155858_00803",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00803.jpg",
+            "original_text": "State of South Carolina\nUnion District\n\nOn this thirty first day\nof January AD eighteen hundred and\nfifty seven personally appeared\nbefore me a notary public and\nauthorized to administer oaths for\ngeneral purposes for said District\nJohn H Skelton and George Spencer\ncitizens and residents of said District who\nbeing duly sworn according to law\ndeposed and say that they were\nwell acquainted with Mordecai Chandler\nin his lifetime, deceased late of this district\nwho was a revolutionary pensioner\nof the United States:  That they were near\nneighbors of his, and from date\nof facts within their recollection\nare enable to speak positively of the\ndate of his death which took place\nat his residence in this district on\nthe ___  day of May AD 1846\nThat he left a widow, who has\nsince died to wit on or about this\n___ day of May AD1852 that\nbesides his said widow (now deceased)\nhe left him surviving the following\nchildren viz. Robert Chandler, Samson\nChander, Rosanda Philips wife of\nSamuel Philips, Jane Stevens wife\nof Chams Stevens, Margaret James\nwife of William James who are\nall now living as affiants believe\nand are the only children and heirs\nat law of the said Mordecai Chandler\ndeceased      And these deponents",
+            "extracted_text": "law union Destron of January as Eighteen hundred buid On this study first any fifty even personally appeared before m a notes Public and in though tad merceamo oaths for general purposes for said Destrole John It Mutton and Gorge Sponeer and mondats of said Distude who aleng duly sworn according l law de pass' and say Aral they where well acquainted with Motor cai Chandler in his lifetime deceased Lott of thes destrool who woos a involutionary Pensioner of the lesulte States: that they was mar milth born of his and form date of facts withins their recollution are enoble 4 speak poestively of date of his death which took place at his residence in This district ow the day of may as 1846 that In up a widow. who has Denew deed to wit on 02 about the Clay of may D1852 that besides no sand widow/now decreased he lift him surviving the following chilorm zy Robert Chandler, Rosande Philipa wifo of Damnel Philips, Jane Stroms wife of Chaman Stevene Margaret Jomes wife of million Jamek who ab all snow living as affects believe and are the only children and hint at law of mo said morricai Choudar diseased And the",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1860,
+                "height": 2893,
+                "aspect_ratio": "1860:2893"
+            },
+            "validation": {
+                "word_distance": "0.5984",
+                "cos_similarity": "0.4428",
+                "levenshtein_distance": "348",
+                "greatest_matching_words": "6"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189451",
+            "filename": "4155858_00804",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00804.jpg",
+            "original_text": "further swear that they are wholly\ndisinterested  in the claim of the heirs\nof the said Mordecai Chandler deceased\nand in giving this testimony\nJohn H Skelton\nGeorge Spencer\n\nSworn to and subscribed before me\nthe day and year above mentioned\nand I hereby certify that I am per-\nsonally acquainted with the above\ndeponents, who are respectable and\ncredible citizens of said district and\nstate and are fully worthy of faith\nand credit in their statements above\nmade; and I certify that I am\ndisinterested in taking this testimony\nor in giving this certificate\n\nGiven under my hand and seal\nthis 31st day of January AD 1857\nJ M Gadberry\nNotary Public\n\nThe State of South Carolina\nUnion District\n\nI B Johnson Ordinary\nfor the district and state aforesaid\ndo hereby certify that\nsatisfactory evidence has been adduced\nbefore me by the affidavits of \nJohn H Skelton and George Spencer\npersons with whom I am well\nacquainted and who I certify",
+            "extracted_text": "frutter owen mas they are wholly desinteraho in the Jain of the him of the saw merican Chander discoon and in Jimmy this testimony that dworm Gand In Genico before no the day and zear a zom william and I honoy certify that I am pn. soually a egream with the above deponants who are responsible and over bh cilyers of said District and and escort in them abou Mato and are fally workhy made ; and Q carefy that I our desmlirato in Coting this beterrous or in giving this cartificate this 31% day of Idminy an 1854 Gross lendu my hand and seal History public Zn I BJohnson for the District and state afoor satisfactory indiver has been addu sand do Thereby cartify that Domi H Shutton and Sprice and before me by the affidable of person with whom be am will augustation and who I catefy",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1864,
+                "height": 2903,
+                "aspect_ratio": "1864:2903"
+            },
+            "validation": {
+                "word_distance": "0.8295",
+                "cos_similarity": "0.2056",
+                "levenshtein_distance": "455",
+                "greatest_matching_words": "4"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189453",
+            "filename": "4155858_00807",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00807.jpg",
+            "original_text": "South Carolina \nUnion District\n\nMordcai Chandler came personally before me, and deposeth as follows that In order to Explain & make more explicit his application for a pension under the Act of Congress passed the 7th June 1832 –\nSaith that in Oct. 1777 he enlisted in Capt DIcksons Company in the Regt. Commanded by Colo Saml Jack of the State of Georgia for two years, being a Regiment of minute men by the authority of the State of Georgia properly organized by the law of that State, marched as set out in my first declaration, and In consequence of Volunteering to go to Florida the Govenor of Georgia then discharged us from our enlistment after having performed our \"Tour to \"Florida, having served Twelve Months of our two years Term of Enlistment  I again was drafted under Capt Jas. Lyles in the Regiment Commanded by Colo John Lyles and Marched as set out in my first declaration, and served Four months duty & was discharged, I again was drafted the second time 1779. Under Capt. Jas. Lyles & Colo John Lyles and served another tour of four months duty our draft was for but three months but owing to great difficulty my officers prevailed on me to remain one month over our regular Tour,  See my first declaration under Where & When my Service was performed – I again after the fall\nof Charleston Volunteered as a refugee under Capt Robuck in Colo Thomas Regiment.  We then Marched to No. Carolina & joined Genl. Sumpter  Clark & Shelby, was in the Engagements Set out [\"under\" crossed out] in my  first declaration, and after the battle at Musgraves we again retreated to No. Carolina again Where I joined my old regiment under Colo Lyles, and marched back to Newberry Dist So.Car.  where I was taken prisoner while on a Scouting Party having then\n",
+            "extracted_text": "South barolina Mardecac bhandler cancer ace Dushia purmally before me and deposits as follow thank alu a du to Explains & make more n explicet his app ticationsfor a a pension hundred the act of Canignep paped the of um 183f - Saith That in act 1741 he Enterted in Cafe Dick Juck of the Hate of Georgia for two years being Ions Company in the Reg. Camereened by bob same a Regiment I minute men by the an thardy of the Hale of bergies properly organized by the law of that Rate, Muchel laul in may faird diclaration and In consequence of dicharged us from am entistment after housing go to to flacida the Governor Engine Then performed our Warn to having Service Welcome matth of am two years From of Entitlement Iagain was chafted Wider Cape laP. by by in the Regiment Communidid by Cole John dyley and durved marched your brand in my first delarations. and months duty 4 was discharged, lagain was chafter the Second hm 1779. know Cafe dat. of by his 9 Cold John Lyly of Levard another Jaco of four mouths delay our draft may for but thew mouth but aweres great difficulty my offices prevailed an me to remain one month offer our regular Your, the my fast declarations know Whom & Where my Seran was performed - I again after the face of Charly ton Volumbired, Refugu mudu cape marchedlo Nobarderice & bud Limiter Clark Robuck in Calo whomas Joint Ree in ut, me them & Shelly, was in the Engagements Selam because in my first and after the battle al Min group me again rehealed to again Whin I Jamea my old leginal huder Colo Ciffer, and taken prisian while au a Seauting Party having there marched back to Newbuy Di . Joban Minday",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1904,
+                "height": 2953,
+                "aspect_ratio": "1904:2953"
+            },
+            "validation": {
+                "word_distance": "0.6925",
+                "cos_similarity": "0.3268",
+                "levenshtein_distance": "720",
+                "greatest_matching_words": "7"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189454",
+            "filename": "4155858_00808",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00808.jpg",
+            "original_text": "Served nine months, was conveyed to Jail at ninety Ist [struck-through “Jail”] & remained in Jail five months and then  Sent to Charleston & Put on board of a prison Ship where I remained two months before I was exchanged, - I again Volunteered under Colo Pervis & performed a Tour of duty in the lower Country, of two months, I again Joined Capt Williams Company as a Volunteer, for Six months – I again Served one month under Maj Pearson not before set out, I also Served three months as a Substitute under Capt Henry Lyles [illegible] before\nin my first declaration,  This [illegible] Served over four years to the best of recollection,  This [illegible] further States that he never followed any Civil [illegible] during his Service in the revolutionary War as Set out was [illegible] called into the Service under & by Competant Authority –\n[signed “Mordecai Chandler”]\nSworn to & Subscribed before }        \nMe this 8th August 1833. }\n[signed \"James Rowntree JP”]\n\nI James Rowntree do Certify that Mordecai Chandler who has Sworn to & Subscribed the above affidavit is a respectable old Gentleman & entitled to every credit as a man of Veracity – Given under my hand the \n8th day of Augt 1833 –\n[signed “James Rowntree JP”]\n",
+            "extracted_text": "Served nine mauths mas Courany I to lail at namely she laile & remained in lail fine months and there Send to bhar les tan & Pulau board of a press caw Shife where Premium two mouth before I mar ex changed,- I a gain Volunteered huger Colo Punis & purfound a Law of duty in the lower Country, of two manths, I ayahi doinia Cape Millions Company as -Notinteer, for lisc mauths- before Let and, I also served Three mouths as w again Serud our month Mu der may Pearsan not Substitute he du Cape Heny by by and before in my fisc de clas ateach This deract over found years to the less of recollection this deformant further Italy that he new followed any aire hundrid during this Servin in the luk ohe hang mm an See and was alwaysalle 0 in to the Seven midu & by Compitant authority - me Argum 1833. drarm this to before M Morilea cai handler James Rowntree He I am Rauntin do Certify That Mordicai bhandler who has Smarts Subscrited the about after dail is a respectable ola Get themar & in ille to every audit as a man of Viracity Gwen know my the 8c day of aug:- 1833 James Rowntree",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1920,
+                "height": 2966,
+                "aspect_ratio": "960:1483"
+            },
+            "validation": {
+                "word_distance": "0.7796",
+                "cos_similarity": "0.2776",
+                "levenshtein_distance": "483",
+                "greatest_matching_words": "8"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189465",
+            "filename": "4155858_00819",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00819.jpg",
+            "original_text": "(1)\nThe following order will be observed in the several documents, composing the vouchers \nof pensioners.\nState of South Carolina}  ss.\nUnion District               } \nBe it known that before me JJ Pratt a Justice of the peace in and for the district aforesaid personally appeared Mordecai Chandler and made oath, in due form of Law, that he is the Identical person named in an original Certificate in his possession, of which (I certify) the following is a true copy,  (Here insert a copy of his certificate of pension. \n\nWar Department Revolutionary Claims\nI certify that in conformity  with the law of the United States of the 7th June 1832. Mordecai Chandler of the State of South Carolina who was a private in the war of the Revolution is entitled to receive Eighty Dollars per Annum during his natural life commencing on the 4th March 1831. and payable Semiannually on the 4th of March & 4th of September in every year\n\nGiven at the war office of the United States this 20th day of January one thousand eight Hundred & thirty four\n(Signd)  Lew Cass\nSecretary of War\n\nExamined & Countersigned by\nJ L Edwards\nCommissioner of Pensions\n\nThat he now resides in Union District and has resided there for the space of fifty years past, and that previous thereto he resided in Newberry—\nSworn & subscribed this Twentieth day of \nNovr.— 1837.\nMordecai Chandler\n\nBefore me}\nJ. J. Pratt 2nd  J Peace\n\n\n",
+            "extracted_text": "(1) several documents, composing the voucheres The following order will be observed in the of pendemens. State of South Carolina 5.5 Cheen Destrict is Be it Known that before me Id Praft a Justice of the Peace in and for the district Chau die and made both. m due form of aforesaid, personally appeared Mardica Law. that he is the Identical person his possipien, of which (I certify the following named in an original Certificate in is a true copy, (Herse insert a copy of his Certificate of Pension. Mary Department Claim I Cuality that in Coinformity mith thelaw of the Minica State y the ye Ium 1832. Mardecai Chandler of the Hole of Earth baroline whomas a pr vation the Nor of the Revolution is cartellia to because Eighty Dollar her annum during his natural Ge Committee an the 4c banh/881 and hay ab able an the 4. &4 of differentes in they year Green w al the nar offer of the Ninton tales this 20 day of January are ceght than and there four Liquid Lew Excemine & bad mm by Carametions of Princies That he now resides in Minia Dis trialand had resided there for the space of fifty years past, and that previous thereto he resided This Smouth in Newbey - love subscribed -day of Norm 18th Mor dicai (randler Before me m Here I.I. Pratt 200",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1976,
+                "height": 2957,
+                "aspect_ratio": "1976:2957"
+            },
+            "validation": {
+                "word_distance": "0.6199",
+                "cos_similarity": "0.4696",
+                "levenshtein_distance": "578",
+                "greatest_matching_words": "15"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189466",
+            "filename": "4155858_00820",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00820.jpg",
+            "original_text": "(2)\nNote—  The foregoing deposition must be signed by the deponent where the pension has been increased, since the certificate has been given, the magistrate will note that fact.\n\nWhen a pensioner has neglected for one year or more, to claim his pension, additional proof of his Identity will be required, as per regulation of the War Department of the 19th June 1824—  Agreeably to the subjoined form\nState of South Carolina}   s.s.\nDistrict of Union\n\n1837.\n\nI John J Pratt— a magistrate in the District above named, do hereby certify that I have the most Satisfactory Evidence,  (Here state what the evidence is} whether personal knowledge, or the affidavits of respectable persons, giving their names upon the evidence of John Rogers Esq. Clerk of the Court for Union District.\nJ. J. Pratt\n\nThat Mordecai Chandler who has this day appeared before me to take the oath of Identity, is the identical person named in the pension certificate which he has exhibited before me, numbered 23424—  And bearing date at the War Office. the 20th day of January. 1834, and signed by \nLew Cass  Secretary of War \n\nGiven under my hand at {illegible] on the day & year above written.—\nI John Rogers Clerk of the Court of Sessions & Common pleas District Certify that J. J. Pratt is a [*see note below] as above.  and that the foregoing [*see note below] perporting to be his, is genuine.  In [*see note} whereof, I have hereunto affixed my Seal of office, and subscribed my name, this Twentieth—day of Nov.—in the year of 1837.\nJ. Rogers  Clk of the Court of District.\n\n*Note:  the areas marked were where a Seal of office was applied, but was then covered over",
+            "extracted_text": "2) not The foregoing deposition must be signed by the deponent where the pension has been increased since the tificate has been given, the magestrate will note that fact \"When a pensioner has neglected for one year or more, to claim his pension, additional proof of his Identity well be required aspen regulation of the War Department of the 19th Line 1824 - Agreemently to the subjouned form, Bistrick state of South of Union Carobia 350 I John I Prato - a magistrate us the District the most Evidence, C Here state what the above named do hereby certify that I have is whether personal knowledge or the affidavit of respectable personal giving their name whom the Enclose of Ialm Ragen Eng cark of the Caush for child District I. I. that Mardicai bhandler who has this day appeared person named in the pension certificate which he before me to take the oath of Identity is the identical has exhibited before, me, numbered 23424 and bearing date at the War office the 20 day of 1834 and signed by Dear bake secutary man Given under my hand at Mum CHance I John Regun D Clerk of the Count Therman phy on the day & year above written. - District Certify that I l Pratt is a has above. and that the forgoing proporting to be his is genuine In There of 2 have hereunts affected my Seat of (office) of and subscribed my name, this - day of Ant of 1807. in The year of the Coust of District",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1960,
+                "height": 2990,
+                "aspect_ratio": "196:299"
+            },
+            "validation": {
+                "word_distance": "0.4549",
+                "cos_similarity": "0.5694",
+                "levenshtein_distance": "598",
+                "greatest_matching_words": "18"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189467",
+            "filename": "4155858_00821",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00821.jpg",
+            "original_text": "(3)\n\nWhen an attorney shall make application for a pension. he must furnish a power of attorney in his favour duly acknowledged before a magistrate.  and dated on or subsequent to the day on which the pension claimed became due, as follows—\n\nKnow all men by these presents, that I Mordecai Chandler of Union District (a) Revolutionary pensioner of the United States, do hereby constitute and appoint [space left blank] my true and lawful attorney, for me and in my name, to receive from the agent of the United States for paying pensions in Charleston, South Carolina, my pension from the fourth day of March 1837. to the fourth day of September 1837.\nWitness my hand and Seal, this 20th day of Nov. 1837.\nMordecai Chandler            Seal\n\nJ. J. Pratt 2. W.\nTest  J. Rogers\n(a) In this blank, insert the word invalid or revolutionary as the case may be.\n\nState of South Carolina}  ss,\nDistrict}\n\nBe it known that on the 2d day of Nov. 1837. before the Subscriber a Justice of the peace in and for said District personally appeared Mordecai Chandler above name, and acknowledged the foregoing power of attorney, to be his act and deed.  In testimony whereof I have hereunto set my hand the day and year last above mentioned.\nJ. J. Pratt  2.W.\n\nThe following affadavit [sic] will be filled up and executed at the bank of Charleston when the attorney applies for the arrears of pension.\n\nState of South Carolina} s.s.\nDistrict}\n\nBe it known that on the [blank space] day of [blank space] 18[?] before the subscriber a Justice of the peace. in and for the said District, personally appeared [blank space] the attorney named in the foregoing power of attorney, and made oath that the same was not given him by reason of any sale, transfer, or mortgage of the pension or arrears of pension, therein authorized to be received by him.  Sworn and subscribed the day and year last above mentioned.  ",
+            "extracted_text": "(B) pension. he must furnish a power of attorney we his favour When an attorney shall make application for a on or subsequent to the day on which the pension duly acknowledged before a magistrate and dated claimed became due, ad follows - Know all men by there presents that I Medicain Chandler of Gener Destrict (a) Roolithaning pensionen of the United states, do havely constitute and appoint my true and lawful attorney for me and in my name, to receive from the agent of the United South Carolina, my pension from the fourth States for paying pensions in based lov, day of chuck 1837. to the famoths day of September 1837 mitnep my hand and Seal, this 20 day of Nov. Sealed & delivered leal? in presence Ce of Mordecai Thandler f.g. Pratt 2.a. (a) In this blank insert the word invalid on as the Case may be State of South Cawhina S.S. District 3 Be it known that on the 20\" day of Nov 1837 before said the subscriber a lustice of the peaceling and for Destrict above personally Chan Mer mentioned I have here anto set my hand the day and year least above attorney to be his act and deed, In testimony where of named and acknowledged the foregoing power of I I Pratt 2.00 The the following bank affadavit well be filled up and executed of at pension in charleston when the attorney applied for the areas State of South Carenia S.S retrict Be it known that on the day of 185 before the subscriber a -peared Justice of the peace. in and for the haid Destrict, personally apr of attorney sale and oath that the same was not given him by readon made the attorney named in the forgoing Hower authorized last to be received by him, sworn and subscribed the day and year any Transfer or mortgage of the pension or arrears of pendion there in fast above mentioned",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1976,
+                "height": 3031,
+                "aspect_ratio": "1976:3031"
+            },
+            "validation": {
+                "word_distance": "0.3265",
+                "cos_similarity": "0.6609",
+                "levenshtein_distance": "816",
+                "greatest_matching_words": "19"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189471",
+            "filename": "4155858_00825",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00825.jpg",
+            "original_text": "Comptroller General's Office\nColumbia So. Ca.\nJune 17th 1857.\n\nNo. 2475}\nLib X      }  Issued 21 Apl. 86 to Mr. Mordecai Chandler £7:3:11—\n\nNo 110 No 2475 \nBook X    21 April 1786 Mordecai Chandler for militia duty in Waters Regiment since the fall of Charleston pr  Anderson's return amounting to currency £ 720.00  Sterling £102:17:1 1/2\n\nState of So Carolina to Mordecai Chandler for militia duty in Water's Regt. since the fall of Chastown [sic] pr Andersons return *amotg. to Cury.   £720.  Stg  £102:17:1/2\nRecd. 24th April 1786 full satisfaction for the above in an Indent it 2475  X p order filed in 2418 X     Wm Houseal—\n\nNo 3434}\nBook X  }   Issued 1st August 1786 to Mr. Mordecai Chandler for £15:8:6 3/4 Sterling  duty in Brandon's Regiment pap audited.  Annl. Interest £1:1:7.\n3434 X  no 114 3434 X 1st Aug. 86 Mordecai Chandler for militia duty in Roebuck's Regiment since the fall of Charleston pr Anderson's return amounting to currency\n £108:0:0  Sterling £15:8:6 3/4\nState of So Carolina to Mordecai Chandler for militia duty in Roebuck's Regt. since the fall of Charlestown [sic] p Anderson's return *amotg to currency £108  Stg £15.8.6 3/4\n\nPay to James Martin all my claims against the State of South Carolina for duty done in Roebuck's Regt. value recieved [sic]\nMordecai Chandler\n \nthis 10th *Novber  1790 witness   William McLain\n\nRecd. Columbia 1st Decr 1790 from the Commr. Treasy an Indent No 3434 book X in full of the above amt. per order £15:8.6 3/4  James Martin\n\nI do hereby certify the foregoing to be true copies taken from the Records of this office and that the pay per day of a private horseman was 20 Shillings **\"old currency\" and of a private footman was 10 Shillings  ** \"old currency\" in the Revolutionary war as shown by the Records of this office in payment of the S. C. **Militia claims.\nFor Comptroller Genl.\nW. R. Huntt\nDeputy Comp Genl\n\n(No Seal of Office) \n\nNote:  Document transcribed as written.\n\n*amounting to currency\n*amounting\n**old currency underlined",
+            "extracted_text": "Generals Office Columbia Solea, June 17 th 1857. no24753 Lib X I Issued 4 ape 86 to m. mordecai Chauder £102.17. 1/2-594 duty in Water Regiont pap and hollo 102475 Book X 21 april 1786 Mordecai bhaudbifor 10110. Principal £102.17.112 Interest E7.3:11- militia dutyin Water Regiment since the falloffrachton return amounting to Currency £720.0.0. Sterling Z 102; 17, 1/1/2 Hale Mordecar chaugler for militia duty in Water Regh since the fall of Charlown pr anderson return anoty of Curry 7,220. Nee. 24th april 1786 talestatisfaction for the above st,9 102.17th in an shound P 2475 x P oroufiliom 2418X lomeouseal 1 no 3434 BookX Issued august 1706 the Mordecai Chandles, for Sis. 8: 614 Heiling duty in Braudoin Refinance fapaudited and Interest 3454X no114. 3434 x 86 mordecar chauder for militia duty in Rosbucki Requirent sweet the fallof Charleston pc Andustria retrumanounting. to Aah of so Carohine to Moroccain Chandler studing E 15:8.63/ for militia Jultin Rosbucki Reghsim p auderous when amoty x currency $108 ony to James martin all my claims against the state Stg $15.8,604 of o outh Carthina for duty done in Rosbucks Right value recieved this 10 \"hoofer 1790 withing William ilain Mondecai Chaught Ree? Columbia Comm heavy an mount no34346ok X in full of the about pu order £15.8, 63/4 James Martine Idoherebycutify the forejoing tobe true copies taken fromth office and that tho payherday a hurate horseman was 20 thilling \"MoCurrency\" and fapilate footman was 10 shilling oco Currency\" in the Resolutionary eraras shown bythe Record of they offew in haymentog the S.C. milities claims. For Comptioller Gene WRHCHUntt Defuty Cony girl",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1884,
+                "height": 2914,
+                "aspect_ratio": "942:1457"
+            },
+            "validation": {
+                "word_distance": "0.5452",
+                "cos_similarity": "0.3234",
+                "levenshtein_distance": "895",
+                "greatest_matching_words": "5"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189472",
+            "filename": "4155858_00826",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00826.jpg",
+            "original_text": "The State of South Carolina\nUnion District\n\nOn this first day of January AD one thousand eight hundred and fifty seven personally appeared before me a notary public and ex officer a magistrate for the District and State aforesaid Samuel Philips who being duly sworn according declares that his sole administrator of all and singular the goods and chattels rights and credits which were of Mordecai Chandler deceased [sic].  who was the identical Mordecai Chandler to whom was issued a certificate by the United States in the words and signs following to wit  \"Was department Revolutionary claims\"\n\"I certify that in conformity with the law of the \"United States of the 7th June 1832, Mordecai \"Chandler of South Carolina who was a private \"in the war of the Revolution is entitled to \"receive eighty dollars per annum during his \"Natural life commencing on the 4th",
+            "extracted_text": "the I Minon Disher on this therefirst day of January as one thousand eight hurrost and fafty Invoice personally appoar deformer a Public am Exoffeese a for the District and Hato aforesaid famil Philips who king Morn awarding dicloses Wall his sole armementrator of all and Surgular the Gird, and chilles degree and andek which wing mor dieai Chandler discased Roler was the identical Morrical Cha note To whom was issued a antificate By the states is the words and Digirs following to with \" Was department Pavolu- honory claims \"I certify their in conformedy with Mu \"law of the limited States of they Jase 1832, Moroccal Chandler of mi Natu Carolina a who was with in Mn was of the Revolution iie intelled Threem Eighly dollars per anum during has natural life communicing on no 4th",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1864,
+                "height": 2949,
+                "aspect_ratio": "1864:2949"
+            },
+            "validation": {
+                "word_distance": "0.7040",
+                "cos_similarity": "0.3758",
+                "levenshtein_distance": "259",
+                "greatest_matching_words": "4"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189473",
+            "filename": "4155858_00827",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00827.jpg",
+            "original_text": "\"(4th) March 1831 payable same—\n\"annually on the 4th of March\n\"& 4th of September in every year\n\n\"Given at the war [underlined] office\n\"of the United States this 20th day\n\"of January one thousand eight\n\"hundred & thirty four\"\n\"Lew Cass\"\n\"Secretary of War\"\n\n\"Examined and\"\n\"Countersigned by\"\n\"J L Edwards\"\n\"Commissioner of Pensions\"\n\nThat the [illegible] of which the foregoing is supposed to be a true copy cannot be found after diligent search amongst the papers of the deceased it being extracted from are informal application for pension made by the said Mordecai Chandler on the 14th day of Nov 1837.  and herewith filed as a part of this application, to which the declarant begs leave to refer, together with other evidence herewith filed   That the said Mordecai Chandler died at his residence in [illegible] District & State aforesaid on the fifteenth day of May in the year one thousand EightHundred and forty six leaving his widow Elizabeth Chandler, and children, Robert Chandler",
+            "extracted_text": "4 (41) march 1831 payable serve- annually on the 144th of September in my year \"Uvin at In was office mistro States this 20th day of Immony our Thousand Eight hundred & Therety fores\" \"Examemed and \" 11 free Cass 1 I ay\" Sentary your car: Error 1 Commissioner of Penious\" of which the foregoing is support osspical E a a hue copy cannot be found after delifered scarde amongst the paper of the Around it being orthodic from are in formal application for presson hemwith filld as this on the 1414 day of nov 1837 and made by me said misorcan Character application dielar ant leg has to refer to together with Mn residence herierth filed that the said moroceai Charater did at his resources in know District state aformaid ou the fifton the day of mayin Ye year one Thousand Dight Human and chander and checome Robert Chandle forty six learning his widow Elyati",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1864,
+                "height": 2951,
+                "aspect_ratio": "1864:2951"
+            },
+            "validation": {
+                "word_distance": "0.6005",
+                "cos_similarity": "0.3620",
+                "levenshtein_distance": "420",
+                "greatest_matching_words": "5"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189474",
+            "filename": "4155858_00828",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00828.jpg",
+            "original_text": "Samson Chandler, Rosanah Philips, wife of this declarant, Jane Stimes wife of [illegible} Strossel, Margaret James, wife of William James his only heirs at law him surviving   That the widow Elizabeth Chandler died in the District and State aforesaid on the [blank] day of May in the year one thousand eight hundred and fifty two unmarried and without other heirs than her children above named:  That this declarant is also the duly authorized administrator of the said Elizabeth Chandler deceased and that the said Mordecai and Elizabeth Chandler were married about the [blank] day of [blank] AD [blank]   That this declaration is made for the benefit of the heirs at law of the said Mordecai Chandler deceased and with the view of obtaining the amoun [sic] of pension and increased pension due to the said Mordecai Chandler deceased and his aforesaid heirs.\n\nS. B. Phillips\nSamuel B Phillips\n\nSworn to and subscribed before\n",
+            "extracted_text": "Samson Chander, Rosauah lane summa piefe of Philips wife of this dictorant James his only him at law Margant James wife of William him surviving that the widow Objectith Choucher did in the Distrid and state afressed on the day of may in the year one mousand Eight hundred and fifty two unkismid and without other him than he chilorono abon named Thus thes Andmoor is also the duly authorizio admin istrator of the saw Elefobith Chou -dlu discose and that the said Mordceai and Elizobeth chandler were momend about the day of as that this declar alion is mair for Kn burefil of hus at law of the said morrison Chander deceaser and with the view of oftaining the amanof Penson and managed Pension due g the and mindican Chaud In discuss and his aforizad here Samuel B Phillif Swesse Gand subsented before",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1856,
+                "height": 2962,
+                "aspect_ratio": "928:1481"
+            },
+            "validation": {
+                "word_distance": "0.6441",
+                "cos_similarity": "0.3230",
+                "levenshtein_distance": "305",
+                "greatest_matching_words": "5"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189477",
+            "filename": "4155858_00831",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00831.jpg",
+            "original_text": "Unionville SC\nApril 8—1857\n\nG C Whiting Esqr\n\nSir\n\nYour report and instructions of March 28 addressed to Samul Phillips, was by him today handed to me to answer.  as I had proposed the papers, and though without a written power am his attorney\n\nYou have mistaken the object of Mr Phillips; he is not applying for pension, for Elizabeth Chandler, but as administrator of Mordecai Chandler:  In fact that Mr. Phillips is administrator of *Elizabeth Chandler was stated as a collateral *fact to establish the other main fact that the children of Mordecai Chandler are entitled to his arrears and *increased Pension you will therefore please re examine [sic] the claim with the view of allowing the claimant arrears  of pension and increased pension for the benefit of the children of Mordecai Chandler—\n\nIn a short time, I expect to forward to your office \"recorded\" evidence to increase the pension of Mordecai Chandler if the Rolls at Washington do no show it [sic]  You will oblige by sending a report as soon as possible\n\nThe declaration of Mr. Phillips \n\n*Entries marked with asterisk were underlined.\n\n",
+            "extracted_text": "unouville A6 April 8-1850 logis Sir Gives report need instructions of mande 28 adopped day handed to m to answer as g Samul Phillips was ay him to I had prepard I'm paper, and Nough without s with power am his attorng you hos must other the offer of m Phillips: he is not applying for pervious for Olizabith Chander, But as of mondean Chaudhi Hn fust Hial m Phillips is of Olizobith Choud lee was stated as a collolas fuck so catablash Mn other main fact that In children of morrican Chander are chlittio whis amas and increased you will Munforo Please oz examine the claim with Hw view of allowing The claimant amon of pension and w anound Pension for the bewfits of the children of Mordicai Chander In a short, time Doystet beforwan to your Office \"recorded\" wodener by in colose The pension of mordear Chander if the Rolls at Master flow do noshow it you will oblegs a report as aron ay possible the of",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1940,
+                "height": 3083,
+                "aspect_ratio": "1940:3083"
+            },
+            "validation": {
+                "word_distance": "0.6804",
+                "cos_similarity": "0.3893",
+                "levenshtein_distance": "425",
+                "greatest_matching_words": "5"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189479",
+            "filename": "4155858_00833",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00833.jpg",
+            "original_text": "Columbia So. Ca.\n29 June '37\n\nHon. G. C. Whiting\nCommr. Pensions\n\nDear Sir\n\nI enclose Power of Attorney of Saml. B. Phillips admin. of Estate of Mordecai Chandler U.S. pensioner Act of 7 June 1832 at rate of $80 per year, and also Comptroller's Certificate showing that £828 *\"old Currency\" was paid him and that 20 Shillings of £1 *\"old Currency\" was the *pay per day of a private of Cavalry of which Kind of Service there is ample proof among your S. C. pensioners were the Regiments of Robuck as a whole & [\"Brandon\"  marked out; \"Water's\" added] as a part.—  But counted at 10.S. *\"Old Currency\" 1656 days as\n*private  of *Infantry.  Now by reference to his declaration you will doubtless see that he *claimed Cavalry Service   Consequently his pension should have been $100 per year & this increase is what his admn. claims for his children & Grandchildren.\nPlease investigate & report.\n\nVery respectfully\nyr. obt. servt.\nJames A Black Atty.—\n\n*All entries with asterisk were underlined.",
+            "extracted_text": "Columbia J.C. 29Juleby bomm Pension Dear Sir I enclove Power Aliena a Imis (Estate of Mowecai Chandler us. alrate Comphiller's Certificate Showing or Eller funency\" was the pay penday another Th filling of caralin of which Kind of thing is ample proof among your an awhole as apart But persinuery water's were the Regiments defRoback Counted anous \"ace currency\" 1656 daysan private of Infantry. now by references his declaration you will doubtlep Lee that his pension Shaveshave been $ 100 peryear he claimed Cavalry Service Consequently this increase is whathis arm.\" claims for his Children Please investigate report very respectfully Mr offset James A Black atty",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1860,
+                "height": 2457,
+                "aspect_ratio": "620:819"
+            },
+            "validation": {
+                "word_distance": "0.6645",
+                "cos_similarity": "0.4095",
+                "levenshtein_distance": "519",
+                "greatest_matching_words": "5"
+            }
+        },
+        {
+            "date": "07-19-2024",
+            "objectId": "54189480",
+            "filename": "4155858_00834",
+            "model": "Textract",
+            "prompt": "none",
+            "url": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/40/1894/54189440/content/23/M804-RevolutionaryWarPensionAppFiles/M804_0513/images/4155858_00834.jpg",
+            "original_text": "Treasury Department,\nSECOND COMPTROLLER'S OFFICE,\nMay 25- 1838.\n\nSir,\n\nUnder the act of the 6th of April, 1838, entitled \"An act directing the transfer of money remaining unclaimed by certain Pensioners, and authorizing the payment of the same at the Treasury of the United States,\" Mordecai Chandler a Pensioner on the Roll of the S. Carolina Agency, at the rate of eighty Dollars [\"and  ____ Cents\" crossed out] per annum, under the law of the 7th June 1832 has been paid at this Department, from the 4th of March 1837 to the 4th September 1837—\n\nRespectfully, yours,\nAlbion K. Parris\nComptroller\n\nTo the COMMISSIONER OF PENSIONS,\nPresent.",
+            "extracted_text": "Treasury Department, SECOND COMPTROLLER'S OFFICE, May 25- 1838 Sir Under the act of the 6th of April, 1838, entitled \"An act directing the transfer of money remaining unclaimed by cer= tain Pensioners, and authorizing the payment of the same at the Treasury of the United States; Mondecai bha dlesp a Pensioner on the Roll of the S.barole ,, Agency, at the rate of eighty Dollars and 11 \" Center per annum, under the law of they th Iess e 1832 has to the 4 r September 1837. been paid at this Department, from the 4 th of March 1837 Respectfully, yours To the COMMISSIONER OF PENSIONS, Present.",
+            "total_tokens": "none",
+            "image_data": {
+                "width": 1872,
+                "height": 2435,
+                "aspect_ratio": "1872:2435"
+            },
+            "validation": {
+                "word_distance": "0.3534",
+                "cos_similarity": "0.7428",
+                "levenshtein_distance": "139",
+                "greatest_matching_words": "19"
+            }
         }
     ]
 }
